@@ -1,0 +1,109 @@
+.section-informacion-presentacion {
+
+    position: relative;
+    width: 50%;
+    max-width: 1024px;
+    min-width: 600px;
+
+    height: 100%;
+    margin-bottom: 30px;
+    transition: 1s ease;
+
+    @media (max-width: 660px) {
+        transform: scale(.8);
+        margin-top: -50px;
+        margin-bottom: 0;
+    }
+
+    @media (max-width: 500px) {
+        transform: scale(.6);
+        margin-top: -100px;
+        margin-bottom: 0;
+    }
+
+    .semifondo-red {
+        background: #ef44444d;
+        width: 400px;
+        height: 500px;
+        border-radius: 50%;
+        filter: blur(40px);
+        opacity: .6;
+        position: absolute;
+    }
+
+    article {
+        backdrop-filter: blur(13px);
+        color: antiquewhite;
+        border: 2px solid rgba(255, 255, 255, 0.064);
+        border-radius: 200px 500px 300px 200px;
+        width: 100%;
+
+        .title-info {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+            align-items: flex-start;
+            height: 50px;
+            margin-bottom: 15px;
+
+
+            h1 {
+                font-size: 30pt;
+                color: #fff;
+            }
+
+            svg {
+                margin-top: 8px;
+            }
+
+        }
+
+        .contenedor-info {
+            background: rgba(0, 0, 0, 0.507);
+            border-radius: 40px;
+            padding: 40px;
+            border-radius: 200px 500px 300px 200px;
+        }
+
+        p {
+            font-size: 13pt;
+            padding: 15px 30px 15px 0px;
+        }
+
+        b {
+            color: #f59e0bb3;
+        }
+
+        h2 {
+            padding: 0px 0px 10px 30px;
+
+        }
+
+        .contenedor-carac {
+            padding: 10px 0px 0px 50px;
+
+            ul {
+                padding: 5px;
+                list-style: none;
+
+                li {
+                    cursor: pointer;
+                    padding: 3px;
+                    display: flex;
+                    flex-flow: row;
+                    align-items: center;
+
+                    &:hover {
+                        color: #9c9c9c;
+                    }
+
+                    span {
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+
+
+    }
+}

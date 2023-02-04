@@ -1,0 +1,100 @@
+.container-Presentation {
+    padding-top: 120px;
+    background-image: url('/images/fondo1.jpg');
+    background-size: cover;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: start;
+    min-height: 70vh;
+
+    @media (max-width: 1150px) {
+        flex-flow: column;
+        align-items: center;
+    }
+
+
+    a {
+        text-decoration: none;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media (max-width: 1150px) {
+            width: 100%;
+        }
+
+
+    }
+
+
+}
+
+
+.contenedor-botones-Presentacion {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 270px;
+    margin: 50px;
+    transition: 1s ease;
+
+    @media (max-width: 500px) {
+        margin-top: 0;
+    }
+
+    .botonDescargaCV {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        padding: 5px;
+        width: 150px;
+        border-radius: 10px;
+        background: rgb(214, 138, 5);
+        border: 2px solid rgba(49, 49, 49, 0.856);
+        outline: 1px solid rgb(214, 138, 5);
+
+        svg {
+            fill: rgb(247, 238, 224);
+            width: 30px;
+            padding-right: 10px;
+        }
+
+        &:hover {
+            background: rgb(145, 92, 0);
+        }
+
+    }
+
+    .botonContacto-Presentacion {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        color: rgb(245 158 11);
+        border: 1px solid rgba(245, 159, 11, 0.548);
+        border-radius: 10px;
+        text-decoration: none;
+        background: rgba(0, 0, 0, 0.222);
+        max-height: 500px;
+        max-width: 100px;
+
+        svg {
+            fill: rgb(245 158 11);
+            width: 30px;
+        }
+
+        &:hover {
+            background: rgba(255, 172, 56, 0.062);
+
+        }
+    }
+}
