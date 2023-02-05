@@ -1,0 +1,59 @@
+.section-situations {
+    display: flex;
+    background: black;
+    filter: blur(1px);
+    overflow: hidden;
+
+    .situation1 {
+        background-image: url('/images/fondoUX3.png');
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: end;
+    }
+
+    .situation2 {
+        background-image: url('/images/fondoDEV3.png');
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .situation3 {
+        background-image: url('/images/fondoPER3.png');
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: end;
+    }
+
+    div {
+        overflow: hidden;
+        width: 0px;
+        height: 400px;
+        flex-grow: 1; //Ocupa el espacio que puedas, en la caja flexible
+        object-fit: cover; // Cubra todo el espacio
+        opacity: 0.3;
+        transition: 1s ease;
+
+        img {
+            height: 300px;
+            transition: 1s ease
+        }
+
+        &:hover {
+            cursor: crosshair;
+            width: 70%;
+            opacity: 1;
+            filter: blur(0px);
+
+            img {
+                height: 350px;
+            }
+        }
+    }
+}
