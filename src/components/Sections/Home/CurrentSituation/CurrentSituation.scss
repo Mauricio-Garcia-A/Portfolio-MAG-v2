@@ -1,8 +1,51 @@
+$color1:rgb(255, 183, 0);
+
+.conteiner-CurrentSituation {
+    header {
+        padding-top: 10px;
+        border-top: 5px solid $color1;
+        border-bottom: 1px solid $color1;
+        background: #222;
+        height: 100px;
+        color: aliceblue;
+        text-align: center;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    article {
+        background: rgb(246, 246, 246);
+        background-image: url('/images/fondo-situacion-actual.png');
+        background-size: cover;
+
+        section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        :nth-child(even) {
+            flex-direction: row-reverse;
+        }
+        :nth-child(odd) {
+            flex-direction: row;
+        }
+
+
+    }
+}
+
+
+
+
 .section-situations {
     display: flex;
     background: black;
     filter: blur(1px);
     overflow: hidden;
+
+    
 
     .situation1 {
         background-image: url('/images/fondoUX3.png');

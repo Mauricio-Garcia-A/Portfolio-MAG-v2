@@ -9,8 +9,10 @@ const descripcionSeccion = [
 
 export default function CurrentSituation() {
     return (
-        <section className='conteiner-CurrentSituation'>
-            <h1>[ ACTUALIDAD PERSONAL Y PROFECIONAL]</h1>
+        <div className='conteiner-CurrentSituation'>
+            <header >
+                <h1> ACTUALIDAD PERSONAL Y PROFECIONAL</h1>
+            </header>
             <div className='section-situations'>
 
                 <div className='situation1'>
@@ -26,16 +28,29 @@ export default function CurrentSituation() {
                 </div>
             </div>
             <article>
-                {
-                    descripcionSeccion.map((parrafo, i) => {
-                        return (
-                            <div key={`parrado-actualidad-${i}`}>
-                                <p>{parrafo}</p>
-                            </div>
-                        )
-                    })
-                }
+                <section>
+                    <img style={{ width: '500px' }} src='/Portfolio-MAG-v2/images/IT.png' />
+                    <div>
+                        <p>{descripcionSeccion[0]}</p>
+                        <p>{descripcionSeccion[1]}</p>
+                    </div>
+                </section>
+                <section>
+                    <img src='/Portfolio-MAG-v2/images/DEVyUX.png' />
+                    <div>
+                        <p>{descripcionSeccion[2]}</p>
+                    </div>
+                </section>
+                <section>
+                    <img src='/Portfolio-MAG-v2/images/agil-medodologia.png' />
+                    <div>
+                        <p>{descripcionSeccion[3]}</p>
+                    </div>
+                </section>
+
+
+
             </article>
-        </section>
+        </div>
     )
 }
