@@ -1,0 +1,71 @@
+.container-ImageComparator {
+    width: 100%;
+
+    .wrapper-habilidades {
+        width: 100%;
+        height: 500px;
+        position: relative;
+        overflow: hidden;
+
+        article {
+            height: 500px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: end;
+            object-fit: cover;
+            position: absolute;
+            z-index: 1;
+        }
+
+        .conteiner-img1 {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.101);
+        }
+
+        .conteiner-img2 {
+            width: 100%;
+
+            background: rgb(255, 255, 255);
+            clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+        }
+
+        .slider-habilidades {
+            z-index: 3;
+            -webkit-appearance: none;
+            position: relative;
+            width: calc(100% + 60px);
+            height: 100%;
+            background-color: transparent;
+            outline: none;
+            margin-left: -30px;
+
+            &::-webkit-slider-thumb {
+                margin-top: 360px;
+                -webkit-appearance: none;
+                cursor: e-resize;
+                width: 90px;
+                height: 55px;
+                border: 1px solid rgba(0, 0, 0, 0.504);
+                border-radius: 50px;
+                background: rgba(255, 255, 255, 0.66);
+                background-image: url('/images/flechas.png');
+                background-size: cover;
+
+                &:hover {
+                    background: rgba(255, 255, 255, 0.856);
+                    background-image: url('/images/flechas.png');
+                    background-size: cover;
+
+                }
+
+                &:active {
+                    background: rgba(236, 165, 0, 0.607);
+                    background-image: url('/images/flechas.png');
+                    background-size: cover;
+
+                }
+            }
+        }
+    }
+}
