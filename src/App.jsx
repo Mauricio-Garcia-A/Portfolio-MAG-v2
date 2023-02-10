@@ -17,8 +17,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Portfolio-MAG-v2/" element={<Home />} />
-        <Route path="/Portfolio" element={<Portfolio />} />
-        <Route path="/Acerca-de-mi" element={<AboutMe />} />
+        <Route path="/Portfolio-MAG-v2/Portfolio" element={<Portfolio />} />
+        <Route path="/Portfolio-MAG-v2/Acerca-de-mi" element={<AboutMe />} />
       </Routes>
 
       <Footer />
