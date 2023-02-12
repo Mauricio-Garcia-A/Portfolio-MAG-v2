@@ -13,8 +13,11 @@ export default function ModalLineTime(
 ) {
     return (
         <div className='container-ModalLineTime'>
-            <h1>{title}</h1>
-            <h2>{years}</h2>
+            <div className='container-title-ML'>
+                <h1>{title}</h1>
+                <h2>{years}</h2>   
+            </div>
+            
             <button className={desplegado ? 'desplegado-LT' : 'no-desplegado-LT'}>LEER MAS</button>
         </div>
     )

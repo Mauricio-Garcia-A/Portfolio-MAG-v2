@@ -18,7 +18,7 @@ export default function ArticleLineTime(
                 <div className='container-icons-ALT'>
                     <LogoExperiencia titulo={logo} width='80px' />
                 </div>
-                <div className={desplegado ? 'container-text-ALT' : 'container-text-ALT container-text-desplegado'} >
+                <div className={desplegado ? 'container-title-ALT' : 'container-title-ALT container-title-no-desplegado'} >
                     <h4 className={desplegado ? 'desplegado-LT' : 'no-desplegado-LT'}>{subtitle}</h4>
                 </div>
             </header>
