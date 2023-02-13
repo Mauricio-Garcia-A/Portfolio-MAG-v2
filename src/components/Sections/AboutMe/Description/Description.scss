@@ -1,0 +1,10 @@
+.container-Description {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 40px;
+
+    border-bottom: 2px solid rgba(233, 151, 0, 0.649);
+}

@@ -1,0 +1,22 @@
+.container-Hobbies {
+    section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        &.derecha {
+            flex-direction: row-reverse;
+        }
+
+        &.izquierda {
+            flex-direction: row;
+        }
+
+        img {
+            width: 50%;
+            max-width: 400px;
+        }
+
+
+    }
+}
