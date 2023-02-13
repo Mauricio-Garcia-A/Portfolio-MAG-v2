@@ -1,0 +1,59 @@
+[
+    {
+        "titulo": "Challenge de Mercado Libre",
+        "tituloHttp": "meli",
+        "descripcion": "Prueba tecnica ralizada para puesto de frontend para Mercado libre",
+        "imagenMovil": "meli-movil.png",
+        "imagenBrowser": "meli-browser.png",
+        "logo": "logo-meli.png",
+        "logoTitulo": "logo-titulo-meli.png",
+        "colorFondo": "#d8980d82",
+        "fecha": "20/02/2022",
+        "tecnologias": [
+            "reactjs",
+            "sass",
+            "html5",
+            "js"
+        ],
+        "linkGit": "https://github.com/Mauricio-Garcia-A/Proyecto-MeLi",
+        "linkPage": "https://mauricio-garcia-a.github.io/Proyecto-MeLi/"
+    },
+    {
+        "titulo": "Challenge de Agencia EGO",
+        "tituloHttp": "ego",
+        "descripcion": "Prueba tecnica ralizada para puesto de frontend para Agencia EGO",
+        "imagenMovil": "ego-movil.png",
+        "imagenBrowser": "ego-browser.png",
+        "logo": "logo-ego.png",
+        "logoTitulo": "logo-titulo-ego.png",
+        "colorFondo": "#6c141482",
+        "fecha": "20/02/2022",
+        "tecnologias": [
+            "reactjs",
+            "html5",
+            "css3",
+            "js"
+        ],
+        "linkGit": "https://github.com/Mauricio-Garcia-A/Proyecto-EGO",
+        "linkPage": "https://mauricio-garcia-a.github.io/Proyecto-EGO/"
+    },
+    {
+        "titulo": "Challenge de Instituto Alexander Fleming",
+        "tituloHttp": "iaf",
+        "descripcion": "Prueba tecnica ralizada para puesto de frontend para Instituto Alexander Fleming",
+        "imagenMovil": "iaf-movil.png",
+        "imagenBrowser": "iaf-browser.png",
+        "logo": "logo-iaf.png",
+        "logoTitulo": "logo-titulo-iaf.png",
+        "colorFondo": "#da00746f",
+        "fecha": "20/02/2022",
+        "tecnologias": [
+            "reactjs",
+            "html5",
+            "css3",
+            "js"
+        ],
+        "linkGit": "https://github.com/Mauricio-Garcia-A/Proyecto-IAF",
+        "linkPage": "https://mauricio-garcia-a.github.io/Proyecto-IAF/"
+    }
+]
