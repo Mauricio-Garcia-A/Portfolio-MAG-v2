@@ -1,0 +1,95 @@
+{
+    "ActividadesDEV": [
+        "Análisis del sistema (Relevamiento de los requerimientos)",
+        "Diseño del sistemas (Diagramas UML y Patrones de diseño)",
+        "Diseño de Arquitectura e infraestructura (Redes y Bases Datos)",
+        "Desarrollador (Programador FrontEnd y BackEnd)",
+        "QA y testing",
+        "Soporte para la implementación y mantenimiento del sistema"
+    ],
+    "ActividadesUIX": [
+        "Diseño UI (Diseños de Interacción y de Interfaz de Usuario)",
+        "Patrones de Diseño UI y Heurísticas de Nielsen",
+        "Diseño UX (Fundamentos de diseño de Experiencias de Usuario)",
+        "Leyes de UX",
+        "Estudios de Accesibilidad y Usabilidad",
+        "Creación de Prototipos"
+    ],
+    "SkillsDev": [
+        {
+            "titulo": "Tecnologias Web FrontEnd:",
+            "items": [
+                "html5",
+                "css3",
+                "js"
+            ]
+        },
+        {
+            "titulo": "Frameworks y Librerías Web:",
+            "items": [
+                "reactjs",
+                "angular",
+                "vuejs",
+                "wordpress",
+                "drupal",
+                "dreamweaver"
+            ]
+        },
+        {
+            "titulo": "Librerías y Preprocesadores de Estilos:",
+            "items": [
+                "sass",
+                "less",
+                "postcss",
+                "bootstrap",
+                "materialui"
+            ]
+        },
+        {
+            "titulo": "Tecnologias Web BackEnd:",
+            "items": [
+                "nodejs",
+                "python",
+                "php"
+            ]
+        },
+        {
+            "titulo": "Tecnologias de Bases de Datos:",
+            "items": [
+                "mysql",
+                "postgresql",
+                "mongodb"
+            ]
+        },
+        {
+            "titulo": "Herramienta de control de versiones:",
+            "items": [
+                "github",
+                "svn"
+            ]
+        },
+        {
+            "titulo": "Metodologías Agiles:",
+            "items": [
+                "scrum",
+                "kanban"
+            ]
+        }
+    ],
+    "SkillsUIX": [
+        {
+            "titulo": "Tecnologias de Diseño:",
+            "items": [
+                "photoshop",
+                "coreldraw",
+                "autocad"
+            ]
+        },
+        {
+            "titulo": "Herramientas de Prototipado:",
+            "items": [
+                ""
+            ]
+        }
+    ]
+}

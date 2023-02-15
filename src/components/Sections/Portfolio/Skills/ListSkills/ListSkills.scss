@@ -1,0 +1,36 @@
+.container-ListSkills {
+    background-image: linear-gradient(to right, #374151, #000);
+    display: flex;
+    flex-flow: row wrap;
+    gap: 60px;
+    justify-content: space-evenly;
+
+
+    h3 {
+        color: rgb(252, 252, 252);
+    }
+
+    .container-logo {
+        background: rgba(255, 255, 255, 0.153);
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        border: 1px solid white;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    article {
+        width: 350px;
+
+        div {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            gap: 15px;
+        }
+    }
+}

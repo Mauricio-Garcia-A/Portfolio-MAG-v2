@@ -20,7 +20,10 @@
 
         .conteiner-img1 {
             width: 100%;
-            background: rgba(255, 255, 255, 0.101);
+            background-image: url('/images/fondoUIX.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
         }
 
         .conteiner-img2 {
@@ -28,6 +31,10 @@
 
             background: rgb(255, 255, 255);
             clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+            background-image: url('/images/fondoDEV.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
         }
 
         .slider-habilidades {

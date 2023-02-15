@@ -8,7 +8,7 @@ import useSEO from '../../hooks/useSEO'
 export default function Portfolio() {
     useSEO({ title: 'Portfolio de Proyectos' })
     return (
-        <div style={{ paddingTop: '120px' }}> 
+        <div> 
             <Skills />
             <Experiences />
             <Projects />

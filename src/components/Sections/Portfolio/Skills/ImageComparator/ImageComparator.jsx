@@ -31,7 +31,7 @@ export default function ImageComparator() {
         <div className='container-ImageComparator'>
             <div className='wrapper-habilidades'>
                 <article className='conteiner-img1'>
-                    <img src='/images/fotoHabilidades3.png' alt='image-habilidad-dev' />
+                    <img src='/images/fotoHabilidades1.png' alt='image-habilidad-dev' />
 
                 </article>
                 <article className='conteiner-img2' id={imageId}>
