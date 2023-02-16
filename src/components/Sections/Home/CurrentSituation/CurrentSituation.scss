@@ -54,6 +54,14 @@ $color1:rgb(255, 183, 0);
         flex-direction: row;
         justify-content: right;
         align-items: end;
+        position: relative;
+        
+            section {
+                position: absolute;
+                top: 0;
+                left: 30%;
+        
+            }
     }
 
     .situation2 {
@@ -63,6 +71,13 @@ $color1:rgb(255, 183, 0);
         flex-direction: row;
         justify-content: center;
         align-items: end;
+        position: relative;
+        
+            section {
+                position: absolute;
+                top: 0;
+                left: 50%;
+            }
     }
 
     .situation3 {
