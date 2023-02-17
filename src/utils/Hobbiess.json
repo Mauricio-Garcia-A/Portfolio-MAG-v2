@@ -1,37 +1,62 @@
 [
     {
-        "titulo": "Dibujar",
-        "descripcion": "Hoy me encuentro desarrollando diferentes proyectos de manera FreeLancer, abierto a aprender nuevas tecnologías para satisfacer las necesidades particulares de cada proyecto de la forma más efectiva posible, y con el objetivo claro de seguir creciendo como profesional.",
+        "titulo": "Dibujo y Arte",
+        "descripcion": [
+            "Uno de mis principales hobby es el dibujo, una actividad que me apasiona y disfruto mucho. Como dibujante, me encanta explorar mi creatividad y expresar mis emociones e ideas a través de mi arte. Para mí, el dibujo es una forma de arte que me permite plasmar en papel todo lo que esta en mi imaginación.",
+            "En mi tiempo libre, suelo dedicar algunas horas a la semana a practicar y mejorar mis habilidades en el dibujo. Me gusta experimentar con diferentes técnicas y estilos de dibujo, y a menudo busco inspiración en la naturaleza, la cultura popular, la música y otras formas de arte.",
+            "Además, me encanta aprender sobre la historia del arte y los grandes artistas del pasado y el presente. Me interesa conocer sus técnicas, su proceso creativo y las influencias que han marcado su trabajo. También disfruto asistir a exposiciones y museos de toda índole para ver el trabajo de otros artistas y aprender de ellos.",
+            "En resumen, el arte y el dibujo son una parte importante de mi vida y me permiten explorar mi creatividad, mejorar mis habilidades y disfrutar de la belleza de la vida en todas sus formas."
+        ],
         "imagen": "imagen-habilidades-uix.png"
     },
     {
-        "titulo": "Ejecicio",
-        "descripcion": "Hoy me encuentro desarrollando diferentes proyectos de manera FreeLancer, abierto a aprender nuevas tecnologías para satisfacer las necesidades particulares de cada proyecto de la forma más efectiva posible, y con el objetivo claro de seguir creciendo como profesional.",
+        "titulo": "Hacer ejercicio",
+        "descripcion": [
+            "El deporte es una de mis pasiones y es una parte importante de mi estilo de vida. Me encanta ir al gimnasio a entrenar, salir a correr, andar en bicicleta y hacer ejercicio al aire libre, siempre que puedo. Para mí, el deporte es una forma de mantener mi cuerpo en forma, de desafiarme a mí mismo y de sentirme bien física y psicológicamente.",
+            "Suelo dedicar varias horas a la semana a hacer deporte. Me gusta planear mi entrenamiento y establecer metas para lograr progresos personales, y me siento motivado cuando veo que estoy mejorando y logrando mis objetivos.",
+            "Y lo más importe todo, es que voy disfrutando día a día del proceso y de los beneficios del deporte."
+        ],
         "imagen": "imagen-habilidades-uix.png"
     },
     {
-        "titulo": "Astronomia",
-        "descripcion": "Hoy me encuentro desarrollando diferentes proyectos de manera FreeLancer, abierto a aprender nuevas tecnologías para satisfacer las necesidades particulares de cada proyecto de la forma más efectiva posible, y con el objetivo claro de seguir creciendo como profesional.",
+        "titulo": "Astronomia y Fisica Avanzada",
+        "descripcion": [
+            "Desde chico que tengo una gran fascinación por la astronomía y por la ciencia en general. Siempre fui una persona muy curiosa en lo que respectan estos temas, y que disfruta mucho de informarme, investigar, estudiar y mantenerme actualizado sobre temas científicos, principalmente los que respectan a los misterios del universo y se vinculan con la física avanzada.",
+            "Me gusta sumergirme en los libros y artículos científicos que tratan temas como la relatividad, la mecánica cuántica y la teoría de las cuerdas, entre otros. Me fascina la profundidad de estas teorías y la manera en que nos permiten entender el mundo que nos rodea de una manera cada vez más precisa.",
+            "Hoy en día la astronomía sigue siendo uno de mis mayores intereses y hobbies. Tengo un telescopio que, en mis ratos libres, me permite observar el cielo nocturno y explorar de una manera más directa una pequeñísima parte este universo. Y me encanta pasar tiempo mirando las estrellas y observando los diferentes eventos astronómicos, como eclipse y cometas, siempre que sea posible. Y a menudo estoy buscando nuevas formas de mejorar mi equipo y de aprender más sobre la astronomía.",
+            "En resumen, la astronomía y la física teórica avanzada son dos de mis mayores hobbies"
+        ],
         "imagen": "imagen-habilidades-uix.png"
     },
     {
-        "titulo": "viajar",
-        "descripcion": "Hoy me encuentro desarrollando diferentes proyectos de manera FreeLancer, abierto a aprender nuevas tecnologías para satisfacer las necesidades particulares de cada proyecto de la forma más efectiva posible, y con el objetivo claro de seguir creciendo como profesional.",
-        "imagen": "imagen-habilidades-uix.png"
-    },
-    {
-        "titulo": "bicicleta",
-        "descripcion": "Hoy me encuentro desarrollando diferentes proyectos de manera FreeLancer, abierto a aprender nuevas tecnologías para satisfacer las necesidades particulares de cada proyecto de la forma más efectiva posible, y con el objetivo claro de seguir creciendo como profesional.",
-        "imagen": "imagen-habilidades-uix.png"
-    },
-    {
-        "titulo": "Astronomia",
-        "descripcion": "Hoy me encuentro desarrollando diferentes proyectos de manera FreeLancer, abierto a aprender nuevas tecnologías para satisfacer las necesidades particulares de cada proyecto de la forma más efectiva posible, y con el objetivo claro de seguir creciendo como profesional.",
+        "titulo": "Viajes y Fotografia",
+        "descripcion": [
+            "Otros de mis hobbies es viajar, y he tenido la suerte de poder recorrer muchos lugares de mi hermoso país. Y hoy considero que viajar es una de las actividades más enriquecedoras que existen. ",
+            "Recorrer los caminos, explorar diferentes lugares, redescubrir las culturas y tradiciones de cada lugar,  y conocer nuevas personas en el proceso, es realmente es una de las experiencias más gratificante y enriquecedora, que me ha tocado vivir. ",
+            "En cada viaje me gusta explorar los lugares históricos, las atracciones turísticas, los paisajes naturales y los lugares menos conocidos. Me interesa aprender sobre la historia y la cultura de cada lugar que visito, así como también conocer a la gente local y su forma de vida.",
+            "Ademas soy fanatico de la fotografía, que es otro de los hobbies que me apasiona y disfruto mucho de hacer en cada viaje. Me encanta capturar paisajes hermosos, que van desde montañas y ríos hasta playas y mares, pasando por desiertos, selvas y ciudades. Capturando esos momentos especiales, y tratar de crear imágenes que transmitan emociones y muchas sensaciones al observarlas. ",
+            "Y en cada viaje llevo conmigo mi fiel compañero: EL MATE. Es por ello que hace unos años decidí ser creador de contenido en Instagram, y poder compartir un poco de mi pasión por los viajes, el mate y la fotografía con la comunidad.",
+            "Y así nació @MATE.EN.LUGARES. ¡El instagram de mi compañero de viajes! jajaja",
+            "@MATE.EN.LUGARES tiene como objetivo capturar la esencia de cada lugar en una sola foto, transmitiendo su belleza y singularidad. Asi que voy por los caminos, creando imágenes auténticas y naturales, que muestren las maravillas de este mundo a través de mi propia perspectiva, y disfrutando principalmente de los momentos únicos que nos brinda cada lugar en donde decido hacer mi ritual del mate.",
+            "Y con este este pequeño granito de arena, solo busco que mi contenido puede inspirar a otros a viajar y experimentar el mundo de la misma manera que lo hago yo, y mi mate."
+        ],
         "imagen": "imagen-habilidades-uix.png"
     },
     {
         "titulo": "Musica",
-        "descripcion": "Hoy me encuentro desarrollando diferentes proyectos de manera FreeLancer, abierto a aprender nuevas tecnologías para satisfacer las necesidades particulares de cada proyecto de la forma más efectiva posible, y con el objetivo claro de seguir creciendo como profesional.",
+        "descripcion": [
+            "Me gusta mucho la música, y disfruto mucho en mi tiempo libre de ella. Además de escuchar música de generos muy variados, toco varios instrumentos como la guitarra, ukelele y el teclado, aunque todavía tengo mucho por aprender. Debo aceptar que no soy muy habilidoso en este rubro y aunque no tengo un talento innato para tocar instrumentos, me esfuerzo cada día para mejorar mis habilidades musicales.",
+            "Me gusta explorar diferentes géneros musicales y apreciar la complejidad y belleza de cada uno. Disfruto de la creatividad que me permite la música, y la libertad que se siente y que se expresa a través de ella. A la música la veo como una vía de escape y una forma de conectarme con mi lado creativo."
+        ],
+        "imagen": "imagen-habilidades-uix.png"
+    },
+    {
+        "titulo": "Lectura",
+        "descripcion": [
+            "En mis ratos libres también disfruto mucho de leer libros de géneros y temas variados y diferentes. Es una buena forma de distraerme y a su vez me permite adquirir nuevos conocimientos y experimentar diferentes emociones a través de la literatura.",
+            "Disfruto tanto los libros de ciencia ficción como “El símbolo perdido” o “Origen” de  Dan Brown, como de los clásicos de la literatura, como “El Martín Fierro” o “El Principito”. Sin embargo, mi verdadera pasión es leer sobre ciencia, como “Breve historia del tiempo” de Stephen W. Hawking, entre otros libros de divulgación científica.",
+            "Me encanta sumergirme en nuevas historias y explorar diferentes mundos a través de la literatura. Cada libro que leo me brinda una nueva perspectiva y me ayuda a entender mejor el mundo que me rodea. Además, la lectura me brinda una vía de escape y una forma de relajarme."
+        ],
         "imagen": "imagen-habilidades-uix.png"
     }
 ]
