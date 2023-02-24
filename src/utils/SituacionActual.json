@@ -7,18 +7,20 @@
     ],
     "ItemsSituacion": [
         {
+            "id": "desing-uix",
             "titulo": "Desing UIX",
             "descripcion": [
                 "Actualmente incursionando en el mundo del diseño, como diseñador UX/UI, en donde mi enfoque principal es garantizar que los productos digitales sean fáciles de usar, intuitivos y que satisfagan las necesidades de los usuarios.",
                 "Estoy siempre buscando nuevas formas de mejorar y perfeccionar mis habilidades, para ofrecer soluciones de diseño innovadoras, efectivas y efectivas. Para lograrlo, investiga al usuarios y sus hábitos de uso, se identifican patrones y tendencias, y se crean prototipos de alta fidelidad para validar los diseños.",
                 "Tengo experiencia en diseño gráfico y creación de interfaces de usuario, y domino herramientas de diseño como Photoshop y CorelDraw, y herramientas de prototipado como Figma, Sketch, Adobe XD y InVision."
             ],
-            "text-preboton": "Puede ver más sobre esto en mi portfolio",
-            "text-boton": "ver portfolio",
+            "textPreboton": "Puede ver más sobre esto en mi portfolio",
+            "textBoton": "ver portfolio",
             "url": "",
             "imagen": "/images/fotoUX3.png"
         },
         {
+            "id": "developer",
             "titulo": "Developer",
             "descripcion": [
                 "Actualmente, mi rol principal es el de Desarrollador FrontEnd especializado en ReactJS, con conocimientos sólidos en tecnologías programación del lado del cliente como JavaScript, HTML y CSS.",
@@ -26,12 +28,13 @@
                 "Además estoy incursionado en el Desarrollo BackEnd, con tecnologías de programación del lado del servidor como Node.js y Python, para la creación de APIs que permitir la comunicación entre el lado del cliente y lado el servidor, o integración con otros sistemas y/o servicios de terceros. Y así conseguir llegar a ser FullStack.",
                 "Especializándome también en la utilización de tecnologías como MongoDB, MySQL y PostgreSQL para diseñar y mantener sistemas de gestión de Bases de Datos."
             ],
-            "text-preboton": "Puede ver más sobre esto en mi portfolio",
-            "text-boton": "ver portfolio",
+            "textPreboton": "Puede ver más sobre esto en mi portfolio",
+            "textBoton": "ver portfolio",
             "url": "",
             "imagen": "/images/fotoDEV3.png"
         },
         {
+            "id": "persona",
             "titulo": "Persona",
             "descripcion": [
                 "Me caracterizo por ser una persona sociable y agradable, con un buen sentido del humor y una disposición siempre abierta a ayudar a mis compañeros en cualquier tarea que necesiten. Siempre comprometido con el trabajo en equipo y valoro la colaboración y el intercambio de ideas para lograr objetivos comunes.",
@@ -39,8 +42,8 @@
                 "Personalmente me considero una persona altamente motivada y apasionada por el aprendizaje continuo en los diferentes ámbitos de la vida. Siempre estoy buscando formas de mejorar y crecer tanto personal como profesionalmente.",
                 "Y en mi tiempo libre, disfruto de la lectura, el deporte, la música, el arte y la naturaleza, y utilizo estas actividades como una forma de mantenerme equilibrado y motivado. Creo en el valor de una vida equilibrada y busco mantener un enfoque saludable en todo lo que hago."
             ],
-            "text-preboton": "Puedes conoce más sobre mis intereses y hobbies en",
-            "text-boton": "Acerca de Mi",
+            "textPreboton": "Puedes conoce más sobre mis intereses y hobbies en",
+            "textBoton": "Acerca de Mi",
             "url": "",
             "imagen": "/images/fotoPER3.png"
         }

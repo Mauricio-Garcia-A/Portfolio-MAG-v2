@@ -1,7 +1,6 @@
 import './CurrentSituation.scss'
 import responseActualidad from '../../../../utils/SituacionActual.json'
-import LogoDev from '../../Portfolio/Skills/logos/LogoDev'
-import LogoUIX from '../../Portfolio/Skills/logos/LogoUIX'
+import RolesSituation from './RolesSituation/RolesSituation'
 
 export default function CurrentSituation() {
 
@@ -13,45 +12,9 @@ export default function CurrentSituation() {
             <header >
                 <h1> ACTUALIDAD PERSONAL Y PROFECIONAL</h1>
             </header>
-            <div className='section-situations'>
 
-                <div className='situation1'>
-                    <section>
-                        <LogoUIX width='200px' />
-                        <div>
-                            <p></p>
-                            <p></p>
-                            <button></button>
-                        </div>
-                    </section>
-                    <img src={ItemsSituacionActual[0].imagen} />
-                </div>
+            <RolesSituation ItemsSituacionActual={ItemsSituacionActual} />
 
-                <div className='situation2'>
-                    <section>
-                        <LogoDev width='200px' />
-                        <div>
-                            <p>{ItemsSituacionActual[1].descripcion}</p>
-                            <p>
-                            </p>
-                            <button></button>
-                        </div>
-                    </section>
-                    <img src={ItemsSituacionActual[1].imagen} />
-                </div>
-
-                <div className='situation3'>
-                    <img src={ItemsSituacionActual[2].imagen} />
-                    <section>
-                        <h2></h2>
-                        <div>
-                            <p>.</p>
-                            <p></p>
-                            <button></button>
-                        </div>
-                    </section>
-                </div>
-            </div>
             <article>
                 <section>
                     <img style={{ width: '500px' }} src='/Portfolio-MAG-v2/images/IT.png' />
