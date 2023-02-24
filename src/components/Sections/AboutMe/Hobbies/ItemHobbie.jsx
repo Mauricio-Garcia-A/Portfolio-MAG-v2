@@ -12,7 +12,7 @@ export default function ItemHobbie({
                 <h2>{titulo}</h2>
                 <p>{descripcion}</p>
             </div>
-            <img src={`/images/${imagen}`} alt='imagen-hobbie' />
+            <img src={`/Portfolio-MAG-v2/images/${imagen}`} alt='imagen-hobbie' />
         </section>
     )
 }
