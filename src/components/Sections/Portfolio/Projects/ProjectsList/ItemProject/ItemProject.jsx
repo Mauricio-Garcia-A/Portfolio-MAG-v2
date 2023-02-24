@@ -38,7 +38,7 @@ export default function ItemProject({
                     />
                 </article>
                 <article className='container-info-IP'>
-                    <img src={`/images/projects/${logoTitulo}`} alt='logo' style={{ width: '200px' }} />
+                    <img src={`/Portfolio-MAG-v2/images/projects/${logoTitulo}`} alt='logo' style={{ width: '200px' }} />
                     <h1>{titulo}</h1>
                     <p >{descripcion}</p>
                     <p><b>Fecha:</b> {fecha} </p>

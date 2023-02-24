@@ -37,7 +37,7 @@ export default function TemplateMovil({
                 <div><span>{`https://www.${tituloHttp}.com`}</span></div>
             </div>
             <div className='contenedor-imagen-Celular'>
-                <img src={`/images/projects/${imagenMovil}`} alt='imagen-celular' />
+                <img src={`/Portfolio-MAG-v2/images/projects/${imagenMovil}`} alt='imagen-celular' />
             </div>
             <footer>
                 <IconsTemplate titulo='botonControl1' fill='rgb(200, 200, 200)' width='10px' />

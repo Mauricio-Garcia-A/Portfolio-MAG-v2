@@ -11,7 +11,7 @@ export default function SkillsDescription({ Actividades1, Actividades2 }) {
         <div>
             <section className='actividades-Skills'>
                 <article>
-                    <img src='/images/imagen-habilidades-uix.png' alt='image-uix-skills' />
+                    <img src='/Portfolio-MAG-v2/images/imagen-habilidades-uix.png' alt='image-uix-skills' />
                     <div>
                         < div className="header-actividad-skills">
                             <LogoUIX height='100px' />
@@ -45,7 +45,7 @@ export default function SkillsDescription({ Actividades1, Actividades2 }) {
                             )
                         })}
                     </div>
-                    <img src='/images/imagen-habilidades-dev.png' alt='image-dev-skills' />
+                    <img src='/Portfolio-MAG-v2/images/imagen-habilidades-dev.png' alt='image-dev-skills' />
                 </article>
             </section>
         </div >

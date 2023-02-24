@@ -20,7 +20,7 @@
 
         .conteiner-img1 {
             width: 100%;
-            background-image: url('/images/fondoUIX.png');
+            background-image: url('/Portfolio-MAG-v2/images/fondoUIX.png');
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
@@ -31,7 +31,7 @@
 
             background: rgb(255, 255, 255);
             clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
-            background-image: url('/images/fondoDEV.png');
+            background-image: url('/Portfolio-MAG-v2/images/fondoDEV.png');
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
@@ -56,19 +56,19 @@
                 border: 1px solid rgba(0, 0, 0, 0.504);
                 border-radius: 50px;
                 background: rgba(255, 255, 255, 0.66);
-                background-image: url('/images/flechas.png');
+                background-image: url('/Portfolio-MAG-v2/images/flechas.png');
                 background-size: cover;
 
                 &:hover {
                     background: rgba(255, 255, 255, 0.856);
-                    background-image: url('/images/flechas.png');
+                    background-image: url('/Portfolio-MAG-v2/images/flechas.png');
                     background-size: cover;
 
                 }
 
                 &:active {
                     background: rgba(236, 165, 0, 0.607);
-                    background-image: url('/images/flechas.png');
+                    background-image: url('/Portfolio-MAG-v2/images/flechas.png');
                     background-size: cover;
 
                 }
