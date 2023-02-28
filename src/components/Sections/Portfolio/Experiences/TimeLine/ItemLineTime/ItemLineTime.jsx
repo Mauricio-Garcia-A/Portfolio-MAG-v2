@@ -16,11 +16,12 @@ export default function ItemLineTime({ posicionItem, experience, primeraPosicion
         <section key={`section-experience-${experience.logo}`} className={`${posicionItem}`}>
             <div className='seccion-modal-LT' >
                 <ModalLineTime
-                    logo={experience.logo}
+                    logo={experience.logoTitulo}
                     title={experience.titulo}
                     subtitle={experience.subtitulo}
                     years={experience.duracionAños}
                     description={experience.descripcion}
+                    informacionExtra={experience.informacionExtra}
 
                     desplegado={desplegado}
                 />

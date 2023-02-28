@@ -23,6 +23,7 @@ export default function TimeLine({ experiences = [] }) {
 
                 return (
                     <ItemLineTime
+                        key={`itemTimeline-${i}`}
                         posicionItem={posicionItem}
                         primeraPosicion={primeraPosicion}
                         ultimaPosicion={ultimaPosicion}

@@ -1,0 +1,43 @@
+.container-DialogModal {
+
+    .container-modal {
+        position: relative;
+        width: 300px;
+        height: auto;
+
+    }
+
+    .container-modal::backdrop {
+        background: rgba(0, 0, 0, 0.655);
+        backdrop-filter: blur(4px);
+    }
+
+    .button-DM {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        padding: 5px;
+        width: 150px;
+        border-radius: 10px;
+        background: rgb(214, 138, 5);
+        border: 2px solid rgba(49, 49, 49, 0.856);
+        outline: 1px solid rgb(214, 138, 5);
+
+        svg {
+            fill: rgb(247, 238, 224);
+            width: 30px;
+            padding-right: 10px;
+        }
+
+        &:hover {
+            background: rgb(145, 92, 0);
+        }
+    }
+
+
+
+
+
+}

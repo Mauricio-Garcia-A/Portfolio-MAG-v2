@@ -1,4 +1,3 @@
-
 import './Skills.scss'
 import ImageComparator from './ImageComparator/ImageComparator'
 import responseSkills from '../../../../utils/skills.json'
@@ -10,8 +9,7 @@ export default function Skills() {
     const ActividadesRealizadas1 = responseSkills.ActividadesDEV
     const ActividadesRealizadas2 = responseSkills.ActividadesUIX
     const SkillsDev = responseSkills.SkillsDev
-    const SkillsDesing = responseSkills.ActividadesUIX
-
+    const SkillsDesing = responseSkills.SkillsUIX
 
     return (
         <div className='container-Skills'>
@@ -29,7 +27,7 @@ export default function Skills() {
 
                 <SkillsDescription Actividades1={ActividadesRealizadas1} Actividades2={ActividadesRealizadas2} />
 
-                <ListSkills SkillsDev={SkillsDev} />
+                <ListSkills SkillsDev={SkillsDev} SkillsDesing={SkillsDesing} />
             </main>
         </div>
     )

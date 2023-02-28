@@ -36,9 +36,9 @@ export default function SkillsDescription({ Actividades1, Actividades2 }) {
                         <h2>Habilidades como Developer WEB</h2>
                         {Actividades1.map((actividad, i) => {
                             return (
-                                <span >
+                                <span key={`actividad-dev-${i}`}>
                                     <IconDev />
-                                    < p key={`actividad-dev-${i}`}> {actividad}</p>
+                                    < p > {actividad}</p>
                                 </span>
 
 

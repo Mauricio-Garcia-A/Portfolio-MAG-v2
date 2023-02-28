@@ -3,10 +3,22 @@
         "titulo": "Freelancer",
         "subtitulo": "Diferentes Proyectoss",
         "duracionAños": "2020-Actualidad",
-        "descripcion": "Hoy me encuentro desarrollando diferentes proyectos de manera FreeLancer, abierto a aprender nuevas tecnologías para satisfacer las necesidades particulares de cada proyecto de la forma más efectiva posible, y con el objetivo claro de seguir creciendo como profesional.",
+        "descripcion": "Hoy me encuentro desarrollando diferentes proyectos de manera FreeLancer, dispuesto a aprender nuevas tecnologías para satisfacer las necesidades particulares de cada proyecto de la forma más efectiva posible, y con el objetivo claro de seguir creciendo como profesional.",
         "logo": "freelancer",
         "logoTitulo": "freelancer-titulo",
-        "informacionExtra": []
+        "informacionExtra": [
+            "Actualmente me encuentro trabajando como desarrollando FrontEnd en diferentes proyectos de manera FreeLancer, dispuesto a aprender nuevas tecnologías, para satisfacer las necesidades particulares de cada proyecto de la forma más efectiva y eficiente posible.",
+            "Algunos trabajos realizados de forma FreeLancer  son:",
+            "- Creación y mantenimiento de sitio web para Gimnasio de estrenamiento",
+            "- Creación y mantenimiento de Aplicación web de MVP (Monitoreo Virtual de Plantel). Web app de monitoreo entrenamiento de plantel de hockey.",
+            "- Refactorización de sitio web para comercios como mueblerías, gimnacios, etc.  (Realizados con Shopify y Webflow ).",
+            "- Refactorización en proyectos de TeleMediciona (Realizado con ReactJS).",
+            "- Refactorización en sitios web de instituciones Medicas (Realizado con WordPress ).",
+            "En los cuales pude superar con éxito los diferentes desafíos y adversidades propios de cada proyecto, de una manera autodidacta, y con un alto nivel de responsabilidad y compromiso para lograr objetivos en tiempo y forma. Pude adaptarme rápidamente a los requerimientos de cada proyecto, a los plazos estimados, y a la forma de trabajas en cada uno de los casos.",
+            "Mi experiencia como FreeLancer me ha permitido seguir creciendo profesionalmente, desarrollando habilidades en áreas como la planificación, la estimación de proyectos y la resolución de problemas.",
+            "En este tiempo he aprendido a ser más Autodidacta y a tomar decisiones importantes en situaciones complejas. Y me he vuelto más flexible y adaptable para trabajar en diferentes contextos y con diferentes equipos de personas, lo que ha mejorado mi capacidad de comunicación y colaboración.",
+            "Hoy trabajando de forma FreeLancer no descarto ninguna posibilidad de trabajar en proyectos, que impliquen nuevos desafíos, ya sea de forma independientes o por medio de una consultora de sistemas, ya que continuo siempre con la idea y el objetivo fijo de continuar aprendiendo y creciendo como profesional en el campo de IT, para poder brindar soluciones de calidad cada vez más efectivas y eficientes a los clientes."
+        ]
     },
     {
         "titulo": "Consultora Internacional",
@@ -15,7 +27,21 @@
         "descripcion": "Trabaje  2 años en la consultora de sistemas internacional Global Logic como Developer FrontEnd Junior, en proyectos de sector de banca. Rol que lleve a cabo con éxito cumpliendo de con las tareas solicitadas de forma satisfactoria en tiempo y forma. (Desarrollo, mantenimiento y testing de Home Banking)",
         "logo": "globalLogic",
         "logoTitulo": "globalLogic-titulo",
-        "informacionExtra": []
+        "informacionExtra": [
+            "Trabaje 2 años en la consultora de sistemas internacional Global Logic como Developer FrontEnd.",
+            "Durante mi trabajo en Global Logic, tuve como objetivo principal contribuir al desarrollo de soluciones software de alta calidad en el sector bancario. Como desarrollador FrontEnd, mi labor consistió en el desarrollo, testing y mantenimiento de Home Banking, para diferentes entidades bancarias, proyectos críticos para la empresa y sus clientes en sector bancario.",
+            "Mi desempeño en este rol tuvo un impacto significativo en el éxito de los proyectos en los que trabajé, al cumplir con las tareas asignadas en tiempo y forma, y al colaborar en la mejora continua del producto, de una forma proactiva. ",
+            "Mis tares fundamentales eran:",
+            "-  Crear y desarrollar nuevas funcionalidades a las aplicaciones web bancarias. (bajo demanda del cliente)",
+            "-  Mantener funcionalidades existentes de la aplicación web en producción, y corregir errores de dichas funcionalidades, dando un soporte constante y solucionando los problemas surgidos en tiempo real, lo antes posible.",
+            "-  Participación colaborativa y activa en el equipo de QA y de Desing UX/UI, para testear o agregar nuevas funcionalidades, o correcciones de las ya existentes.",
+            "-  Pero principalmente me caractericé por buscar de forma proactiva futuros errores o mejoras del sistema, para poder predecir y evitar problemas futuros.",
+            "Todo esto lo logre trabajando en un marco de trabajo en equipo, donde se utilizábamos metodologías agiles para la asignación de tareas y roles, y donde el compañerismo y la comunicación era una pieza fundamental en el equipo que me toco ser parte. ",
+            "En Global además participar como desarrollador en proyectos del sector bancario, también tuve la oportunidad de formar parte de un equipo especializado en la búsqueda de soluciones de software basadas en los frameworks más populares del mercado en la actualidad, como ReactJS, Angular y Vue.",
+            "En el cual me formaron y capacitaron en el manejo de estas tecnologías, con un enfoque principal en ReactJS. El proyecto principal de este equipo fue crear una biblioteca o librería de componentes web reutilizables propia de Global Logic, y libre de otras librerías, que cumpliera con los estándares de calidad requeridos y que tuviera como principal objetivo dar una solución de acceso rápido para futuros proyectos de la compañía que se manejaban con estas tecnologías. (Librería de componentes de soporte propia de GL)",
+            "De mi paso por Global Logic, rescato no solo los conocimientos y experiencias adquiridos en lo que respecta a las tecnologías de desarrollo web, sino también las diferentes habilidades que pude aprender y/o mejorar en el proceso. Habilidades como la capacidad para adaptarte al cambio, aprendiendo nuevas tecnologías, según la situación lo demande, y principalmente la habilidad de integrarme rápidamente a nuevos grupos o equipos de trabajo interdisciplinarios, para alcanzar objetivos en común.",
+            "En resumen una mejora fundamental en la capacidad para trabajar en un entorno profesional y enfrentar desafíos complejos en el campo de la IT."
+        ]
     },
     {
         "titulo": "Trabajo en Investigacion",
@@ -24,7 +50,27 @@
         "descripcion": "Trabaje como becario en el Centro de investigación GIDAS (Grupo de Investigación & Desarrollo Aplicado a Sistemas informáticos y computacionales), en un rol administrativo del centro de investigación, y también como participante y desarrollador en diversos proyectos de investigación.",
         "logo": "gidas",
         "logoTitulo": "gidas-titulo",
-        "informacionExtra": []
+        "informacionExtra": [
+            "Durante mi etapa universitaria, tuve la oportunidad de trabajar como becario en el Centro de Investigación GIDAS (Grupo de Investigación & Desarrollo Aplicado a Sistemas informáticos y computacionales), ",
+            "Este centro de investigación se encuentra ubicado en la UTN FRLP, y tiene como objetivo principal la promoción, la innovación y la divulgación de soluciones software a problemas del ámbito académico, empresarial y social de la región.",
+            "En este lugar pude dar mis primeros pasos en el ámbito laboral en el área de la tecnología, el desarrollo, la investigación y la innovación. ",
+            "• Mi rol en el centro de investigación fue, en un comienzo, principalmente administrativo. ",
+            "Encargado de:",
+            "-  Responsable de la atención al público. Esto recibir a visitantes, alumnos y becarios, responder preguntas y proporcionar información sobre el centro de investigación y sus actividades.",
+            "-  Community Manager más orientado a ser Social Media Manager. Gestión y monitoreo de las redes sociales del centro de investigación. Esto implica crear contenido relevante, interesante y atractivo para la audiencia en línea, como publicaciones en redes sociales, blogs, y compartir información actualizada y relevante sobre las actividades y logros del centro de investigación.",
+            "-  Administración de presupuestos. Responsable de la gestión y asignación de los algunos recursos financieros del centro, asegurándose de que se utilicen de manera efectiva y eficiente. Encargado de identificar las necesidades de centro de investigación en cada momento, y conseguir varios presupuestos para cubrirlas satisfactoriamente.",
+            "-  Gestión de personal. Encargado de supervisar y coordinar las actividades de los becarios del centro de investigación, guiándolos en los proyectos y principalmente ayudándolos y acompañándolos en su capacitación.",
+            "-  Comunicación y relaciones públicas. Mantener una comunicación clara y efectiva con los patrocinadores de los proyectos, colaboradores y otros interesados en el centro de investigación. Y esencialmente con la diferentes entidades dentro de la universidad.",
+            "Rol que pude llevar a cabo con éxito, cumpliendo con todas las tares encomendadas, y cumpliendo todos los objetivos plateados.",
+            "• También tuve la oportunidad de ser Becario, en este lugar. Y en mi rol como becario poder participar y desarrollar diferentes proyectos de investigación en el área de sistemas y tecnologías de la información.",
+            "Algunos de esos proyectos son:",
+            "-  Diseño y Desarrollo del sitio del GIDAS (Practica supervisada de la carrera de ingeniería, realizada con Wordpress) ",
+            "-  Participación en proyectos Bioingeniería (Colaboración en la etapa de análisis, relevamiento y diseño. En estos proyectos tuve un rol más de analista funcional, que de desarrollador) ",
+            "-  Becario en Proyecto de TelefoniaIP (Proyecto completo- Tesis de la carrera. Este proyecto fue mi tesis de la carrera de ingeniería, y participe de forma activa en todas las etapas de los proyectos,  desde el análisis, el diseño, el desarrollo, el testing hasta la implementación y el mantenimiento)",
+            "Esta etapa, en mi rol como becario, fue la más enriquecedora ya que me permitió no solo adquirir experiencia laboral en un entorno real, sino también ser parte de proyectos de investigación e innovadores. ",
+            "Rol que también pude llevar a cabo con éxito, cumpliendo en cada proyecto con los objetivos planteados en tiempo y forma, y aportando en cada uno de ellos un valor agregado ya sea desde el lado del desarrollo, del diseño o de ideas creativas e innovadoras.",
+            "Esta experiencia de trabajar en el centro de investigación, no solo me ayudó a consolidar mis conocimientos técnicos aprendidos durante la carrera, sino también a desarrollar habilidades de trabajo en equipo, comunicación y resolución de problemas en un ambiente de investigación y desarrollo."
+        ]
     },
     {
         "titulo": "Estudio Universitario",
@@ -33,7 +79,14 @@
         "descripcion": "Estudie en la UTN FRLP (Universidad Tecnológica Nacional - Facultad Regional La Plata), la carrera de Ingeniería en Sistemas de Información. Actualmente estoy en la etapa final de la carrera, habiendo terminado de cursar la totalidad de las materias y terminado de dar los finales.",
         "logo": "utn",
         "logoTitulo": "utnfrlp",
-        "informacionExtra": []
+        "informacionExtra": [
+            "Estudie en la UTN FRLP (Universidad Tecnológica Nacional - Facultad Regional La Plata), la carrera de Ingeniería en Sistemas de Información. Actualmente estoy en la etapa final de la carrera, habiendo terminado de cursar la totalidad de las materias y terminado de dar los finales.",
+            "Considero que la etapa universitaria es una de las etapas principales en mi desarrollo como profesional orientado a área IT. En este lugar he tenido la oportunidad de formarme como Ingeniero en Sistemas de Información, una carrera que me ha permitido adquirir conocimientos técnicos y teóricos en áreas como la programación, la matemática, la lógica, el diseño, la base de datos, la inteligencia artificial y la gestión de proyectos, entre otras. ",
+            "Durante mi etapa universitaria, he desarrollado habilidades como el pensamiento crítico, la resolución de problemas y la capacidad de trabajo en equipo en proyectos complejos, valores que considero fundamentales en mi desarrollo como profesional en el área de IT y como actual Developer & Designer.",
+            "Es un pilar fundamental en mi crecimiento como profesional, y me ha permitido estar preparado para enfrentar los desafíos futuros en el campo laboral, y en la vida cotidiana.",
+            "Además, he tenido la posibilidad de participar en actividades extracurriculares, eventos y congresos de sistemas que han contribuido a mi crecimiento personal y me han permitido conocer a personas con intereses similares.",
+            "Estudiar la carrera universitaria de Ingeniería en Sistemas de Información, me ha brindado, no solo una formación académica sólida y especializada en el área de la tecnología, sino también una oportunidad de crecimiento personal y profesional."
+        ]
     },
     {
         "titulo": "Estudios Secundarios",
@@ -41,7 +94,13 @@
         "duracionAños": "2003-2007",
         "descripcion": "Mis estudios secundarios lo realice en la Escuela de educación Técnica Nº1 - 'Ceferino Namuncura' de la ciudad de Daireaux. De la cual egrese con los títulos de “Técnico en Informática Personal y Profesional” y “Bachiller, modalidad Producción de Bienes y Servicios” ",
         "logo": "escuela",
-        "logoTitulo": "escuela-titulo",
-        "informacionExtra": []
+        "logoTitulo": "escuela",
+        "informacionExtra": [
+            "Mis estudios secundarios lo realice en la Escuela de educación Técnica Nº1 - 'Ceferino Namuncura' de la ciudad de Daireaux. ",
+            "Establecimiento en el que comencé mi formación como profesional en el ámbito de la informática, ya que esta escuela de formación técnica cuenta con la orientación de Tecnico en Informática, brindando la combinación conocimientos teóricos y practico que me ayudaron a dar mis primeros pasos en el mundo IT.",
+            "En este lugar pude aprender conocimientos variados, no solo en el ámbito de la informática, sino también en el mundo de la mecánica, la electrónica, la electricidad, la herrería, la maderera, etc, gracias a los talleres. En los cuales no solo se fomenta el desarrollo de habilidades técnicas y tecnológicas, sino que tambien te ayudan a explayar la imaginación y la creatividad en el manejo de materiales, para crear nuevos productos.",
+            "De esta etapa no solo rescato los conocimientos tecnicos, y las experiencias adquiridas en los distintos rubros, sino también los valores de responsabilidad y disciplina, que realizar estas tareas conlleva.",
+            "Egrese con los títulos de “Técnico en Informática Personal y Profesional” y “Bachiller, modalidad Producción de Bienes y Servicios”."
+        ]
     }
 ]
