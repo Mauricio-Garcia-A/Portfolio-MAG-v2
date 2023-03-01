@@ -1,4 +1,18 @@
+$color1: rgb(255, 183, 0);
 .container-Hobbies {
+    header {
+            padding-top: 10px;
+            border-top: 5px solid $color1;
+            border-bottom: 1px solid $color1;
+            background: #222;
+            height: 100px;
+            color: aliceblue;
+            text-align: center;
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     section {
         display: flex;
         justify-content: space-around;

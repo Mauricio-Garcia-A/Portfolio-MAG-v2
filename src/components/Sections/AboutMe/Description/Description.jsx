@@ -1,11 +1,15 @@
 import './Description.scss'
+import responseActualidad from '../../../../utils/SituacionActual.json'
 
 export default function Description() {
+
+    const ItemSituacionActualPersonal = responseActualidad.ItemsSituacion[2]
+
     return (
         <div className='container-Description'>
             <div>
-                <h1>Description de mi</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima excepturi delectus fuga nesciunt, modi voluptatum dolore, dignissimos maiores iure dolor, placeat doloribus praesentium debitis! Ipsam dolorem ut aut veniam mollitia?</p>
+                <h1>Una breve description de mi</h1>
+                <p>{ItemSituacionActualPersonal.descripcion}</p>
             </div>
             <img src='/Portfolio-MAG-v2/images/muñeco.png' alt='imagen-muñeco' />
         </div>
