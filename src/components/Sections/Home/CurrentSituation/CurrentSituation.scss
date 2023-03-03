@@ -20,100 +20,59 @@ $color1:rgb(255, 183, 0);
         background-image: url('/images/fondo-situacion-actual.png');
         background-size: cover;
 
+
         section {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            padding: 50px;
+
+           img {
+                    width: 40vw !important;
+            }
+            p {
+                margin-top: 20px;
+                margin-left: 10px;
+                margin-right: 10px;
+                
+            }
+
+            &:nth-child(1) {
+                flex-direction: row;
+                
+            }
+            &:nth-child(2) {
+                flex-direction: row-reverse;
+                img {
+                    width: 50vw !important;
+                }
+            }
+            &:nth-child(3) {
+                flex-direction: row;
+            }
         }
-        :nth-child(even) {
-            flex-direction: row-reverse;
-        }
-        :nth-child(odd) {
-            flex-direction: row;
-        }
 
-
-    }
-}
-
-
-
-/*
-.section-situations {
-    display: flex;
-    background: black;
-    filter: blur(1px);
-    overflow: hidden;
-
+        @media (max-width: 750px) {
+           
+            section {
+                img {
+                    width: 80vw !important;
+                }
+                &:nth-child(1) {
+                    flex-direction: column;
+                }
+                &:nth-child(2) {
+                    flex-direction: column;
+                    img {
+                        width: 80vw !important;
+                    }
+                }
+                &:nth-child(3) {
+                    flex-direction: column;
+                }
+            }
     
-
-    .situation1 {
-        background-image: url('/images/fondoUX3.png');
-        background-size: cover;
-        display: flex;
-        flex-direction: row;
-        justify-content: right;
-        align-items: end;
-        position: relative;
-        
-            section {
-                position: absolute;
-                top: 0;
-                left: 30%;
-        
-            }
-    }
-
-    .situation2 {
-        background-image: url('/images/fondoDEV3.png');
-        background-size: cover;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: end;
-        position: relative;
-        
-            section {
-                position: absolute;
-                top: 0;
-                left: 50%;
-            }
-    }
-
-    .situation3 {
-        background-image: url('/images/fondoPER3.png');
-        background-size: cover;
-        display: flex;
-        flex-direction: row;
-        justify-content: left;
-        align-items: end;
-    }
-
-    div {
-        overflow: hidden;
-        width: 0px;
-        height: 400px;
-        flex-grow: 1; //Ocupa el espacio que puedas, en la caja flexible
-        object-fit: cover; // Cubra todo el espacio
-        opacity: 0.3;
-        transition: 1s ease;
-
-        img {
-            height: 300px;
-            transition: 1s ease
-        }
-
-        &:hover {
-            cursor: crosshair;
-            width: 70%;
-            opacity: 1;
-            filter: blur(0px);
-
-            img {
-                height: 350px;
-            }
         }
     }
+        
 }
-
-*/
