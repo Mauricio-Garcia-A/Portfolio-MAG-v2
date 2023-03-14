@@ -1,23 +1,30 @@
 .container-Description {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: space-around;
     gap: 40px;
     padding: 40px;
     background-image: url('/images/fondoPER4.png');
-        background-size: cover;
+    background-size: cover;
 
     border-bottom: 2px solid rgba(233, 151, 0, 0.649);
-div {
+
+    div {
         background: rgba(0, 0, 0, 0.474);
         backdrop-filter: blur(5px);
         padding: 50px;
         border-radius: 20px;
         color: white;
+        width: 90vw;
+        max-width: 600px;
 
         p {
             padding-top: 20px;
         }
+    }
+    img {
+        width: 90vw;
+        max-width: 600px;
     }
 }

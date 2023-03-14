@@ -12,12 +12,24 @@ $color1: rgb(255, 183, 0);
             display: flex;
             justify-content: center;
             align-items: center;
-        }
+            
+    }
+    .text-Hobbies {
+        padding: 20px 5vw 30px 5vw;
+    } 
     section {
         display: flex;
         justify-content: space-around;
         align-items: center;
+        padding: 50px;
 
+        h2 {
+            text-align: center;
+            padding-bottom: 15px;
+        }
+        p {
+            padding-bottom: 15px;
+        }
         &.derecha {
             flex-direction: row-reverse;
         }
@@ -30,7 +42,23 @@ $color1: rgb(255, 183, 0);
             width: 50%;
             max-width: 400px;
         }
+        
 
+    }
+    @media (max-width: 750px) { 
+        section {
+            img {
+                width: 80vw !important;
+            }
+            &.derecha {
+                flex-direction: column-reverse;
+            }
+    
+            &.izquierda {
+                flex-direction: column-reverse;
+            }
+
+        }
 
     }
 }
