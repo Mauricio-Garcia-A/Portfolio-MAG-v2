@@ -1,0 +1,19 @@
+$color1:rgb(255, 183, 0);
+
+.container-Projects {
+    .header-Projects {
+        border-top: 5px solid $color1;
+        border-bottom: 1px solid $color1;
+        background: #222;
+        height: 100px;
+        color: aliceblue;
+        text-align: center;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-Projects {
+        padding: 20px 5vw 30px 5vw;
+    } 
+}

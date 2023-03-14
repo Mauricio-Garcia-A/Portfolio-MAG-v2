@@ -21,10 +21,12 @@ export default function Skills() {
                 <h1>HABILIDADES</h1>
             </header>
             <main>
-                <p>Actualmente soy Developer Web FrontEnd con diversas habilidades en lo que respecta al desarrollo de software, y al mundo IT que lo rodea.</p>
-                <p>Incursionando en el mundo BackEnd, para alcanzar la meta de ser FullStack, y mejorando día a día, mediante la utilización de patrones de diseño y buenas prácticas para el desarrollo de software.</p>
-                <p>Además cuento con diferentes habilidades en el área del Diseño de Experiencias e Interfaces de Usuario, con las cual se le agrega valor al desarrollo web, mejorando así  la experiencia que tienen las personas al utilizar las aplicaciones Web, y facilitando la comprensión e interactividad con la aplicación, e impactar directamente en la rentabilidad de tu negocio.</p>
-
+                <div className='container-text-presentacion-Skills'>
+                    <p>Actualmente soy Developer Web FrontEnd con diversas habilidades en lo que respecta al desarrollo de software, y al mundo IT que lo rodea.</p>
+                    <p>Incursionando en el mundo BackEnd, para alcanzar la meta de ser FullStack, y mejorando día a día, mediante la utilización de patrones de diseño y buenas prácticas para el desarrollo de software.</p>
+                    <p>Además cuento con diferentes habilidades en el área del Diseño de Experiencias e Interfaces de Usuario, con las cual se le agrega valor al desarrollo web, mejorando así  la experiencia que tienen las personas al utilizar las aplicaciones Web, y facilitando la comprensión e interactividad con la aplicación, e impactar directamente en la rentabilidad de tu negocio.</p>
+                </div>
+                
                 <SkillsDescription Actividades1={ActividadesRealizadas1} Actividades2={ActividadesRealizadas2} />
 
                 <ListSkills SkillsDev={SkillsDev} SkillsDesing={SkillsDesing} />

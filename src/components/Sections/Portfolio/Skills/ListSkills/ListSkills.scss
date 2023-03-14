@@ -1,26 +1,37 @@
+$color1: rgb(255, 183, 0);
+
+
 .container-ListSkills {
     background-image: linear-gradient(to right, #374151, #000);
     display: flex;
     flex-flow: row wrap;
     gap: 60px;
     justify-content: space-evenly;
-
-
+    padding: 30px;
+    h2 {
+        color: $color1;
+        font-size: 20pt;
+        text-align: center;
+        padding: 40px;
+    }
     h3 {
         color: rgb(252, 252, 252);
+        padding: 5px;
+        text-align: center;
     }
 
     .container-logo {
-        background: rgba(255, 255, 255, 0.153);
+        background: rgb(255,255,255);
+        background: radial-gradient(circle, rgba(37, 36, 36, 0.274) 50%, rgba(177, 177, 177, 0.233) 80%);
         border-radius: 50%;
-        width: 100px;
-        height: 100px;
-        border: 1px solid white;
+        width: 50px;
+        height: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.171);
         display: flex;
         flex-flow: row;
         justify-content: center;
         align-items: center;
-
+        padding: 20px;
     }
 
     article {
@@ -31,6 +42,24 @@
             flex-flow: row wrap;
             align-items: center;
             gap: 15px;
+            justify-content: space-evenly;
+            border: 1px solid rgba(0, 0, 0, 0.267);
+            border-radius: 60px;
+            padding: 10px;
+            border-top: none;
+            border-right: 1px solid rgba(110, 110, 110, 0.171);
+            border-left: 1px solid rgba(0, 0, 0, 0.404);
+
+
+
         }
     }
+
+    .container-items-ListSkills {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 40px;
+        justify-content: space-evenly;
+    }
+    
 }
