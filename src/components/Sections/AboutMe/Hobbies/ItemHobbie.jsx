@@ -11,7 +11,7 @@ export default function ItemHobbie({
         <section className={`${posicionItem}`}>
             <div>
                 <h2>{titulo}</h2>
-
+                <hr />
                 {descripcion.map((parrafo,i)=>{
                     return <p key={`${id}-p${i}`} >{parrafo}</p>
                 })}

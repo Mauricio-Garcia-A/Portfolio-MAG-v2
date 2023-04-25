@@ -7,7 +7,7 @@ export default function Projects() {
     return (
         <div className='container-Projects'>
             <header className='header-Projects'>
-                <h1> Proyectos portfolio</h1>
+                <h2> PROYECTOS PORTFOLIO</h2>
             </header>
             
             <p className='text-Projects '>

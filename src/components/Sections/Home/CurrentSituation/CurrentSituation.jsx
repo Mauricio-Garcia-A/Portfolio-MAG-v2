@@ -10,7 +10,7 @@ export default function CurrentSituation() {
     return (
         <div className='conteiner-CurrentSituation'>
             <header >
-                <h1> ACTUALIDAD PERSONAL Y PROFECIONAL</h1>
+                <h2> ACTUALIDAD PERSONAL Y PROFECIONAL</h2>
             </header>
 
             <RolesSituation ItemsSituacionActual={ItemsSituacionActual} />

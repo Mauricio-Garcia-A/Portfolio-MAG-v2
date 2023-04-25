@@ -43,7 +43,7 @@
         "imagen": "hobby-viajes-fotografia.png"
     },
     {
-        "titulo": "Musica",
+        "titulo": "Escuchar Musica y tocar instrumentos",
         "descripcion": [
             "Me gusta mucho la música, y disfruto mucho en mi tiempo libre de ella. Además de escuchar música de generos muy variados, toco varios instrumentos como la guitarra, ukelele y el teclado, aunque todavía tengo mucho por aprender. Debo aceptar que no soy muy habilidoso en este rubro y aunque no tengo un talento innato para tocar instrumentos, me esfuerzo cada día para mejorar mis habilidades musicales.",
             "Me gusta explorar diferentes géneros musicales y apreciar la complejidad y belleza de cada uno. Disfruto de la creatividad que me permite la música, y la libertad que se siente y que se expresa a través de ella. A la música la veo como una vía de escape y una forma de conectarme con mi lado creativo."
@@ -53,9 +53,10 @@
     {
         "titulo": "Leer y Escribir",
         "descripcion": [
-            "En mis ratos libres también disfruto mucho de leer libros de géneros y temas variados y diferentes. Es una buena forma de distraerme y a su vez me permite adquirir nuevos conocimientos y experimentar diferentes emociones a través de la literatura.",
+            "En mis ratos libres también disfruto mucho de la lectura. Me gusta leer libros de géneros y temas variados y diferentes. Es una buena forma de distraerme y a su vez me permite adquirir nuevos conocimientos y experimentar diferentes emociones a través de la literatura.",
             "Disfruto tanto los libros de ciencia ficción como “El símbolo perdido” o “Origen” de  Dan Brown, como de los clásicos de la literatura, como “El Martín Fierro” o “El Principito”. Sin embargo, mi verdadera pasión es leer sobre ciencia, como “Breve historia del tiempo” de Stephen W. Hawking, entre otros libros de divulgación científica.",
-            "Me encanta sumergirme en nuevas historias y explorar diferentes mundos a través de la literatura. Cada libro que leo me brinda una nueva perspectiva y me ayuda a entender mejor el mundo que me rodea. Además, la lectura me brinda una vía de escape y una forma de relajarme."
+            "Me encanta sumergirme en nuevas historias y explorar diferentes mundos a través de la literatura. Cada libro que leo me brinda una nueva perspectiva y me ayuda a entender mejor el mundo que me rodea. Además, la lectura me brinda una vía de escape y una forma de relajarme.",
+            "También por momentos me tomo un tiempo para escrivir, textos que van desde pequeñas historias o notas reflexivas, hasta poemas. Y considero ese momento como otra forma de dejar volar imaginación y la creatividad."
         ],
         "imagen": "imagen-habilidades-uix.png"
     }

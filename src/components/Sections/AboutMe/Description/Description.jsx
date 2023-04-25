@@ -8,7 +8,7 @@ export default function Description() {
     return (
         <div className='container-Description'>
             <div>
-                <h1>Una breve description de mi</h1>
+                <h1>UNA BREVE DESCRIPCIÓN DE MI</h1>
                 <p>{ItemSituacionActualPersonal.descripcion}</p>
             </div>
             <img src='/Portfolio-MAG-v2/images/muñeco.png' alt='imagen-muñeco' />

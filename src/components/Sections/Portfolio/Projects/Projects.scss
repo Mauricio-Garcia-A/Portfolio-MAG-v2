@@ -1,6 +1,9 @@
 $color1:rgb(255, 183, 0);
 
 .container-Projects {
+    background: rgb(246, 246, 246);
+        background-image: url('/images/fondo-portafolio.png');
+        background-size: cover;
     .header-Projects {
         border-top: 5px solid $color1;
         border-bottom: 1px solid $color1;

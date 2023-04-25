@@ -18,7 +18,7 @@ export default function Skills() {
             <div className='post-header-Skills' />
 
             <header>
-                <h1>HABILIDADES</h1>
+                <h2>HABILIDADES</h2>
             </header>
             <main>
                 <div className='container-text-presentacion-Skills'>

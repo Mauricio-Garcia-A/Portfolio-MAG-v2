@@ -35,7 +35,7 @@ export default function ImageComparator() {
 
                 </article>
                 <article className='conteiner-img2' id={imageId}>
-                    <img src='/Portfolio-MAG-v2/images/fotoHabilidades1.png' alt='image-habilidad-uix' />
+                    <img src='/Portfolio-MAG-v2/images/fotoHabilidades4.png' alt='image-habilidad-uix' />
 
                 </article>
                 <input type='range' min='0' max='100' id={sliderId} className='slider-habilidades' />
