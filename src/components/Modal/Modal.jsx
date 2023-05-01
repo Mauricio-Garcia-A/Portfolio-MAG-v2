@@ -11,13 +11,15 @@ const IconoCerrar = () => {
 }
 
 
-export default function Modal({ children, estado, setEstado }) {
+export default function Modal({ children, estado, setEstado, titleModal='Titulo del modal' }) {
     return (
         <>
             {estado && <div className='fondoModal'>
                 <div className='container-ventana-Modal'>
                     <header>
-                        <span >Hola Mundo</span>
+                        <div>
+                            <span > {titleModal} </span>
+                        </div>
                         <button className='boton-cerrar-modal' onClick={() => setEstado(false)}>
                             <IconoCerrar />
                         </button>

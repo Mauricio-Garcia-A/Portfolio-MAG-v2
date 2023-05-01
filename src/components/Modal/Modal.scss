@@ -22,11 +22,11 @@
     width: 90%;
     max-width: 1300px;
     min-width: 300px;
+    height: 90vh;
     position: relative;
+    overflow-y: hidden;
 
     box-shadow: rgba(111, 109, 100, 0.2) 0px 7px 29px 0px;
-
-
 
     header {
         height: 50px;
@@ -36,15 +36,20 @@
         justify-content: space-between;
         padding-left: 10px;
         border-bottom: #ff9900 2px solid;
+
+        div {
+            text-align: center;
+            width: 100%;
+        }
+    
     }
 
     main {
         margin: 0px 5px 5px 5px;
         border-radius: 0px 0px 8px 8px;
-        min-height: 70vh;
         background: rgb(255, 255, 255);
-        overflow-y: scroll;
-        scroll-behavior: auto;
+        height: calc(100% - 56px);
+        overflow-y: auto;
     }
 }
 
