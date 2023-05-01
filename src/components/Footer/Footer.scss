@@ -14,7 +14,6 @@
     box-shadow: -1px -30px 21px -15px rgba(0, 0, 0, 0.28);
     -webkit-box-shadow: -1px -30px 21px -15px rgba(0, 0, 0, 0.329);
     -moz-box-shadow: -1px -30px 21px -15px rgba(0, 0, 0, 0.28);
-
  
     .separador {
 
@@ -30,7 +29,7 @@
 
     .section-footer-1 {
         text-align: center;
-
+        min-height: 65vh;
 
         .section-redes-sociales {
             margin-top: 15px;
@@ -118,8 +117,8 @@
     footer {
         text-align: center;
         font-size: 10pt;
-        color: #2e2d2d;
-        background: rgb(209, 209, 209);
+        color: #757575;
+        background: rgb(58, 58, 58);
         padding: 3px;
     }
 }

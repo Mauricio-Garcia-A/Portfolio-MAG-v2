@@ -40,7 +40,7 @@ export default function ItemProject({
                 <article className='container-info-IP'>
                     <img src={`/Portfolio-MAG-v2/images/projects/${logoTitulo}`} alt='logo' style={{ width: '200px' }} />
                     <h1>{titulo}</h1>
-                    <p >{descripcion}</p>
+                    <p className='descripcion-IP'>{descripcion}</p>
                     <p><b>Fecha:</b> {fecha} </p>
                     <p><b>Tecnologias Utilizadas:</b> </p>
                     <div className='container-tegno-IP'>
@@ -49,8 +49,8 @@ export default function ItemProject({
                         })}
                     </div>
                     <div className='contenedor-botones-itemProyecto'>
-                        <a href={linkGit} className='botonProyecto'><b>VER CODIGO</b> </a>
-                        <a href={linkPage} className='botonProyecto'><b>VER DEMO</b> </a>
+                        <a href={linkGit}><span className='botonProyecto'>VER CODIGO </span></a>
+                        <a href={linkPage} ><span className='botonProyecto'>VER DEMO  </span></a>
                     </div>
                 </article>
             </section>

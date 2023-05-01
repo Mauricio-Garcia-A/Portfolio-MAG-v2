@@ -12,7 +12,7 @@ export default function Hobbies() {
             </header>
             <main>
                 <p className='text-Hobbies'>
-                    No creo que pueda haber una breve descripción sobre mi persona, que me defina tal cual como soy hoy en díay, y campte mi esencia. Es por ello que considero que una de las mejores formas de conocer a una persona es a través de sus intereses y aficiones. Aquí les voy a describir algunas de las numerosas actividades y hobbies que suelo hacer y disfrutar en mi tiempo libre.
+                    No creo que pueda haber una breve descripción sobre mi persona, que me defina tal cual como soy hoy en día, y campte mi esencia. Es por ello que considero que una de las mejores formas de conocer a una persona es a través de sus intereses y aficiones. Aquí les voy a describir algunas de las numerosas actividades y hobbies que suelo hacer y disfrutar en mi tiempo libre.
                 </p>
 
                 {hobbies.map((hobbie, i) => {

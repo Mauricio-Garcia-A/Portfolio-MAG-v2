@@ -18,7 +18,7 @@ export default function Navbar() {
                     <NavLink to="/Portfolio-MAG-v2/" className='link-BarraDeNavegacion'> HOME </NavLink>
                     <NavLink to="/Portfolio-MAG-v2/Portfolio" className='link-BarraDeNavegacion'>PORTFOLIO</NavLink>
                     <NavLink to="/Portfolio-MAG-v2/Acerca-de-mi" className='link-BarraDeNavegacion'>ACERCA DE MI</NavLink>
-                    <button className='boton-contacto-BarraDeNavegacion'>CONTACTO</button>
+                    <a className='boton-contacto-BarraDeNavegacion' href='#formas-de-contacto'><div>CONTACTO</div></a>
                 </div>
                 <div className='contenedor-boton-desplegable-BarraDeNavegacion' onClick={() => { setMenuDespegado(!menuDesplegado) }}>
                     <ButtonDropdown estadoDesplegado={menuDesplegado} />

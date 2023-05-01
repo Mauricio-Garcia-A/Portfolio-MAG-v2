@@ -48,7 +48,7 @@ const URL_PDF = "/Portfolio-MAG-v2/PDFs/CV-Garcia_Mauricio_Ariel.pdf"
 
 export default function Footer() {
     return (
-        <div className='container-Footer'>
+        <footer className='container-Footer' id='formas-de-contacto'>
             <header />
             <section>
                 <article className='section-footer-1'>
@@ -102,6 +102,6 @@ export default function Footer() {
             <footer>
                 <span>© No-Copyright 2023  -  MAG</span>
             </footer>
-        </div>
+        </footer>
     )
 }
