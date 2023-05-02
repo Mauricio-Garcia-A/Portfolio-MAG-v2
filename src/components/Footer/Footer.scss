@@ -14,7 +14,8 @@
     box-shadow: -1px -30px 21px -15px rgba(0, 0, 0, 0.28);
     -webkit-box-shadow: -1px -30px 21px -15px rgba(0, 0, 0, 0.329);
     -moz-box-shadow: -1px -30px 21px -15px rgba(0, 0, 0, 0.28);
- 
+    
+    
     .separador {
 
         width: 200px;
@@ -29,7 +30,7 @@
 
     .section-footer-1 {
         text-align: center;
-        min-height: 65vh;
+        // min-height: 65vh;
 
         .section-redes-sociales {
             margin-top: 15px;
@@ -71,6 +72,7 @@
         justify-content: space-around;
         padding-top: 30px;
         padding-bottom: 30px;
+        min-height: 60vh;
 
         @media (max-width:1000px) {
         }
@@ -95,6 +97,7 @@
             h1 {
                 font-size: 25pt;
                 margin-bottom: 40px;
+                text-align: center;
             }
 
             svg {
@@ -102,11 +105,13 @@
                 width: 20px;
                 fill: rgb(255, 183, 0);
             }
-
+            div {
+                margin-left: 30px;
+            }
             a {
                 text-decoration: none;
                 color: white;
-                margin-left: 30px;
+                margin-left: 0px;
                 &:hover {
                     color: #e8472aab;
                 }

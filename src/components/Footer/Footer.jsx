@@ -75,13 +75,16 @@ export default function Footer() {
                 <article className='section-contact'>
                     <h1>FORMAS DE CONTACTO</h1>
                     <b><IconUbicacion /> UBICACION ACTUAL</b>
-                    <a href=''>La Plata, Prov. Buenos Aires - ARGENTINA</a>
+                    <div>
+                        <a href=''>La Plata, Prov. Buenos Aires - ARGENTINA</a>
+                    </div>
                     <b><IconMail /> E-MAIL</b>
-                    <a href='mailto:garcia.mauricio.ariel@gmail.com'>{formasDeContacto[0].descripcion}</a>
+                    
+                    <div><a href='mailto:garcia.mauricio.ariel@gmail.com'>{formasDeContacto[0].descripcion}</a></div>
                     <b><IconWhatsapp /> WHATSAPP</b>
-                    <a href='https://wa.me/5492314443314'>{formasDeContacto[1].descripcion}</a>
+                    <div><a href='https://wa.me/5492314443314'>{formasDeContacto[1].descripcion}</a></div>
                     <b><IconLinkedin /> LINKEDIN</b>
-                    <a href='https://www.linkedin.com/in/mauricio-ariel-garcía'>{formasDeContacto[2].descripcion}</a>
+                    <div><a href='https://www.linkedin.com/in/mauricio-ariel-garcía'>{formasDeContacto[2].descripcion}</a></div>
                 </article>
                 <article>
                     <div className='contenedor-cv-Contacto'>
