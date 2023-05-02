@@ -23,7 +23,9 @@ export default function ArticleLineTime(
                 </div>
             </header>
             <main>
-                <p className={desplegado ? 'desplegado-LT' : 'no-desplegado-LT'}>{description}</p>
+                <div className='container-descripcion-LT'>
+                    <p className={desplegado ? 'desplegado-LT' : 'no-desplegado-LT'}>{description}</p>
+                </div>
             </main>
 
         </div>

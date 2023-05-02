@@ -23,9 +23,9 @@
             color: $colorFondo;
         }
 
-.button-modal-ML {
+        .button-modal-ML {
             background: $colorFondo;
-            
+
         }
 
         .contenedor-icono-ItemExperiencia {
@@ -49,9 +49,9 @@
     flex-direction: column;
     padding-top: 40px;
     padding-bottom: 30px;
-    
+
     section {
-     
+
         display: flex;
         justify-content: center;
 
@@ -91,22 +91,25 @@
                 margin-top: 75px;
                 margin-left: 50px;
                 margin-right: 50px;
-
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                
                 h1 {
                     color: rgb(77, 77, 77);
                 }
 
-.button-modal-ML {
+                .button-modal-ML {
                     padding: 10px;
                     width: 100px;
                     border-radius: 20px;
                     border: 2px solid rgba(66, 66, 66, 0.367);
                     color: rgba(255, 255, 255, 0.956);
                     opacity: .7;
-                    -webkit-box-shadow: 0px 0px 20px -3px rgba(0,0,0,0.86);
-                    -moz-box-shadow: 0px 0px 20px -3px rgba(0,0,0,0.86);
-                    box-shadow: 0px 0px 20px -3px rgba(0,0,0,0.86);
+                    -webkit-box-shadow: 0px 0px 20px -3px rgba(0, 0, 0, 0.86);
+                    -moz-box-shadow: 0px 0px 20px -3px rgba(0, 0, 0, 0.86);
+                    box-shadow: 0px 0px 20px -3px rgba(0, 0, 0, 0.86);
                     margin-top: 40px;
+
                     &:hover {
                         opacity: 1;
                         color: rgb(255, 255, 255);
@@ -307,13 +310,16 @@
                 main {
                     position: relative;
                     text-align: center;
-
+                    .container-descripcion-LT {
+                        position: absolute;
+                    }
                     p {
                         margin-left: 40px;
                         margin-right: 40px;
                         margin-top: 10px;
-                        position: absolute;
+                        //position: absolute;
                         color: rgb(97, 97, 97);
+                        
 
                         &.desplegado-LT {
                             transition: 1s ease;
@@ -342,12 +348,20 @@
                     flex-direction: row;
                     justify-content: end;
                 }
+                main {
+                    .container-descripcion-LT {
+                        //background: red;
+                        overflow: hidden;
+                    }
+                }
             }
 
             .container-ModalLineTime {
                 display: flex;
                 flex-direction: column;
                 align-items: start;
+            
+                
             }
 
         }
@@ -359,6 +373,12 @@
                 header {
                     flex-direction: row-reverse;
                     justify-content: start;
+                }
+                main {
+                    .container-descripcion-LT {
+                        //background: blue;
+                        overflow: hidden;
+                    }
                 }
             }
 
@@ -383,18 +403,23 @@
             grid-template-columns: auto 100%;
             grid-template-rows: auto auto;
             padding-left: 40px;
-            
-            .seccion-modal-LT {
-                 order: 2;
-                 width: 90%;
-                .container-ModalLineTime {
-                   margin-top: 0;
 
-                button.button-modal-ML {
-                    margin-top: 10px;
-                    margin-bottom: 10px;
+            .seccion-modal-LT {
+                order: 2;
+                width: 90%;
+                position: relative;
+
+                .container-ModalLineTime {
+                    margin-top: 0;
+
+                    button.button-modal-ML {
+                        //margin-top: 10px;
+                        //margin-bottom: 10px;
+                        position: absolute;
+                        bottom: -80px;
+                        right: 0;
+                    }
                 }
-                }  
             }
 
             .seccion-central-LT {
@@ -405,47 +430,87 @@
             .seccion-articulo-LT {
                 order: 3;
                 width: 90%;
-
             }
+
             &.izquierda {
                 flex-direction: row-reverse;
-    
+                
                 .container-ArticleLineTime {
                     margin-top: -130px;
+
                     header {
                         flex-direction: row-reverse;
                         justify-content: start;
                     }
+                    main {
+                        .container-descripcion-LT {
+                            width: 80%;
+                            //max-height: 150px;
+                            margin-top: -40px;
+                            margin-left: -10px;
+                            
+                            text-overflow:ellipsis;
+                            display:-webkit-box; 
+                            -webkit-box-orient:vertical;
+                            -webkit-line-clamp:6;
+                        }
+                    }
+
                 }
-    
+
                 .container-ModalLineTime {
                     display: flex;
                     flex-direction: row;
                     justify-content: space-between;
-                    
+                    width: 90%;
+                    overflow: hidden;
+                    //white-space: nowrap;
+                    //text-overflow: ellipsis;
+                    margin-left: 10%;
                 }
-    
+
             }
-    
+
             &.derecha {
                 flex-direction: row;
-    
+
                 .container-ArticleLineTime {
                     margin-top: -130px;
+
                     header {
                         flex-direction: row-reverse;
                         justify-content: start;
                     }
+                    main {
+                        .container-descripcion-LT {
+                            width: 80%;
+                           // max-height: 150px;
+                            margin-top: -40px;
+                            margin-left: -10px;
+                            
+                            text-overflow:ellipsis;
+                            display:-webkit-box; 
+                            -webkit-box-orient:vertical;
+                            -webkit-line-clamp:6;
+                        }
+                    }
                 }
-    
+
                 .container-ModalLineTime {
                     display: flex;
                     flex-direction: row;
                     justify-content: space-between;
+                    width: 90%;
+                    overflow: hidden;
+                    //white-space: nowrap;
+                    //text-overflow: ellipsis;
+                    margin-left: 10%;
+                    
                     .container-title-ML {
                         display: flex;
                         flex-direction: column;
                         align-items: start;
+                        
                     }
                 }
             }
@@ -458,12 +523,15 @@
 
 .counteiner-item-modal {
     padding: 50px 7% 50px 7%;
-
+    overflow-x: hidden;
+    white-space:normal;
+    
     h1 {
         padding: 30px 0px 0px 0px;
         font-size: 20pt;
         width: 100%;
     }
+
     h2 {
         padding: 0px 0px 20px 0px;
         font-size: 14pt;
