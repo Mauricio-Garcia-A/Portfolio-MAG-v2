@@ -2,7 +2,7 @@ import * as React from "react"
 
 const IconDev = (props) => (
     <svg
-        width='30px'
+        height='20px'
         viewBox="-0.37 -0.37 26.87 23.2"
         {...props}
     >

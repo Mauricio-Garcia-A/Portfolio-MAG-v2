@@ -12,40 +12,51 @@ export default function SkillsDescription({ Actividades1, Actividades2 }) {
             <section className='actividades-Skills'>
                 <article>
                     <img src='/Portfolio-MAG-v2/images/imagen-habilidades-uix.png' alt='image-uix-skills' />
-                    <div>
-                        < div className="header-actividad-skills">
-                            <LogoUIX height='100px' />
-                        </div>
-                        <h2>Habilidades como Design UI/UX</h2>
-                        {Actividades2.map((actividad, i) => {
-                            return (
-                                <span key={`actividad-uix-${i}`}>
-                                    <IconUIX />
-                                    <p >{actividad}</p>
-                                </span>
-                            )
-                        })}
-                    </div>
-
                 </article>
                 <article>
-                    <div>
+                    <img src='/Portfolio-MAG-v2/images/imagen-habilidades-dev.png' alt='image-dev-skills' />
+                </article>
+                <article>
+                    <div className='container-text-SD'>
+                        < div className="header-actividad-skills">
+                            <LogoUIX height='70px' />
+                        </div>
+                        <h2>Habilidades como Design UI/UX</h2>
+                        <hr />
+                        <ul  style={{ listStyle:'none' }}>
+                            {Actividades2.map((actividad, i) => {
+                                return (
+                                    <li key={`actividad-uix-${i}`}>
+                                        <div>
+                                            <IconUIX />
+                                        </div>
+                                        <p >{actividad}</p>
+                                    </li>
+                                )
+                            })}
+                        </ul>
+
+                    </div>
+                </article>
+                <article>
+                    <div className='container-text-SD'>
                         <div className="header-actividad-skills">
-                            <LogoDev height='100px' />
+                            <LogoDev height='70px' />
                         </div>
                         <h2>Habilidades como Developer WEB</h2>
-                        {Actividades1.map((actividad, i) => {
-                            return (
-                                <span key={`actividad-dev-${i}`}>
-                                    <IconDev />
-                                    < p > {actividad}</p>
-                                </span>
-
-
-                            )
-                        })}
+                        <hr />
+                        <ul style={{ listStyle:'none' }} >
+                            {Actividades1.map((actividad, i) => {
+                                return (
+                                    <li key={`actividad-dev-${i}`} >
+                                        <IconDev />
+                                        < p > {actividad}</p>
+                                    </li>
+                                )
+                            })} 
+                        </ul>
+                        
                     </div>
-                    <img src='/Portfolio-MAG-v2/images/imagen-habilidades-dev.png' alt='image-dev-skills' />
                 </article>
             </section>
         </div >

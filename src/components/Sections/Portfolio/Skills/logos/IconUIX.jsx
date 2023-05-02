@@ -3,8 +3,9 @@ import * as React from "react"
 const IconUIX = (props) => (
     <svg
 
-        width='30px'
-        viewBox="0 0 1007 1280"
+        height='20px'
+        viewBox="0 0 1007 1080"
+        
 
     >
         <g >
