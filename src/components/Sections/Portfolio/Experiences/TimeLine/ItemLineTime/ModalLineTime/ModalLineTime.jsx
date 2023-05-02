@@ -23,9 +23,9 @@ export default function ModalLineTime(
         <div className='container-ModalLineTime'>
             <div className='container-title-ML'>
                 <h1>{title}</h1>
-                <h2>{years}</h2>   
+                <h2>{years}</h2>
             </div>
-            
+
             <button
                 className={desplegado ? 'button-modal-ML desplegado-LT' : 'button-modal-ML no-desplegado-LT'}
                 onClick={() => setEstadoModal(true)}
@@ -36,13 +36,17 @@ export default function ModalLineTime(
             <Modal
                 estado={estadoMoral}
                 setEstado={setEstadoModal}
+                titleModal={title}
             >
-                <LogoExperiencia titulo={logo} width='300px' />
-                <h1>{title}</h1>
-                <h2>{years}</h2>
-                {informacionExtra.map((parrafo, i) => {
-                    return <p key={`parrafo-${logo}-${i}`}>{parrafo}</p>
-                })}
+                <div className='counteiner-item-modal'>
+                    <LogoExperiencia titulo={logo} width='300px' />
+                    <h1>{title}</h1>
+                    <h2>{years}</h2>
+                    {informacionExtra.map((parrafo, i) => {
+                        return <p key={`parrafo-${logo}-${i}`}>{parrafo}</p>
+                    })}
+                </div>
+
             </Modal>
 
         </div>
