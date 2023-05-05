@@ -52,6 +52,9 @@ $color1:rgb(255, 183, 0);
             }
             &:nth-child(3) {
                 flex-direction: row;
+                img {
+                    width: 50vw !important;
+                }
             }
         }
 
