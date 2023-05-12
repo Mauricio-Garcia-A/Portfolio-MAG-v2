@@ -33,6 +33,8 @@ export default function CurrentSituation() {
                     <img src='/Portfolio-MAG-v2/images/agil-medodologia-2.png' />
                     <div>
                         <p>{descripcionSeccion[3]}</p>
+                        <p>{descripcionSeccion[4]}</p>
+                        <p>{descripcionSeccion[5]}</p>
                     </div>
                 </section>
 
