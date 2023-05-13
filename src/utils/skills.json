@@ -85,13 +85,14 @@
             "items": [
                 "photoshop",
                 "coreldraw",
+                "illustrator",
                 "autocad"
             ]
         },
         {
             "titulo": "Herramientas de Prototipado:",
             "items": [
-                ""
+                "figma"
             ]
         }
     ]
