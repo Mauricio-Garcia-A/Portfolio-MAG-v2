@@ -29,7 +29,7 @@ const CaracteristicasPersonales = [
         colorFondo: 'rgba(84, 162, 67, 0.4)'
     },
     {
-        titulo: 'Diciplinada',
+        titulo: 'Disciplinada',
         colorTexto: 'yellow',
         colorFondo: 'rgba(186, 186, 53, 0.411)'
     },
