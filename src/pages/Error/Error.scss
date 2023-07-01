@@ -1,0 +1,58 @@
+.container-Error {
+
+    background-image: url('/images/fondo1.jpg');
+    background-size: cover;
+
+
+
+
+    div {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 2%, rgba(255, 255, 255, 0) 100%);
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 80vh;
+        gap: 15px;
+        padding: 100px 5vw 20px 5vw;
+
+    }
+
+    h2 {
+        font-family: Arial, sans-serif;
+        color: #fc0;
+    }
+
+    p {
+        color: white;
+    }
+
+    .botonVolverAlHome {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        padding: 10px;
+        //width: 150px;
+        border-radius: 10px;
+        background: rgb(214, 138, 5);
+        border: 2px solid rgba(49, 49, 49, 0.856);
+        outline: 1px solid rgb(214, 138, 5);
+        text-decoration: none;
+
+        svg {
+            fill: rgb(247, 238, 224);
+            width: 30px;
+            padding-right: 10px;
+        }
+
+        &:hover {
+            background: rgb(145, 92, 0);
+        }
+
+    }
+
+
+}

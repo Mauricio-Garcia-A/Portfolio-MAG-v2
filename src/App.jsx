@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer'
 import Home from './pages/Home/Home'
 import Portfolio from './pages/Portfolio/Portfolio'
 import AboutMe from './pages/AboutMe/AboutMe'
+import Error from './pages/Error/Error'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,9 +17,9 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Portfolio-MAG-v2/" element={<Home />} />
-        <Route path="/Portfolio-MAG-v2/Portfolio" element={<Portfolio />} />
-        <Route path="/Portfolio-MAG-v2/Acerca-de-mi" element={<AboutMe />} />
+        <Route path="/Portfolio" element={<Portfolio />} />
+        <Route path="/Acerca-de-mi" element={<AboutMe />} />
+        <Route path="*" element={<Error />} />
       </Routes>
 
       <Footer />
