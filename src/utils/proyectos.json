@@ -1,4 +1,23 @@
 [
+      {
+        "titulo": "Challenge de Telecom - Personal Flow",
+        "tituloHttp": "telecom",
+        "descripcion": "Prueba tecnica ralizada para puesto de frontend para Personal Flow, Telecom",
+        "imagenMovil": "telecom-movil.png",
+        "imagenBrowser": "telecom-browser.png",
+        "logo": "logo-telecom.png",
+        "logoTitulo": "logo-titulo-telecom.png",
+        "colorFondo": "#006443cc",
+        "fecha": "30/08/2023",
+        "tecnologias": [
+            "reactjs",
+            "html5",
+            "sass",
+            "ts"
+        ],
+        "linkGit": "https://github.com/Mauricio-Garcia-A/Proyecto-Flow-TS",
+        "linkPage": "https://mauricio-garcia-a.github.io/Proyecto-Flow-TS/"
+    },
     {
         "titulo": "Challenge de Mercado Libre",
         "tituloHttp": "meli",
