@@ -16,7 +16,7 @@ export default function ItemHobbie({
                     return <p key={`${id}-p${i}`} >{parrafo}</p>
                 })}
             </div>
-            <img src={`/Portfolio-MAG-v2/images/${imagen}`} alt='imagen-hobbie' />
+            <img src={`/Portfolio-MAG-v2/images/webp/hobbys/${imagen}`} alt='imagen-hobbie' />
         </section>
     )
 }

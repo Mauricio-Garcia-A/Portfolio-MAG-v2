@@ -120,7 +120,7 @@ $color1: rgb(255, 183, 0);
 
 
         &:nth-child(1) {
-            background-image: url('/images/fondoUIX3.png');
+            background-image: url('/images/webp/fondoUIX3.webp');
             background-size: cover;
             flex-direction: row;
             justify-content: right;
@@ -151,7 +151,7 @@ $color1: rgb(255, 183, 0);
         }
 
         &:nth-child(2) {
-            background-image: url('/images/fondoDEV4.png');
+            background-image: url('/images/webp/fondoDEV4.webp');
             background-size: cover;
             flex-direction: row;
             justify-content: center;
@@ -200,7 +200,7 @@ $color1: rgb(255, 183, 0);
         }
 
         &:nth-child(3) {
-            background-image: url('/images/fondoPER4.png');
+            background-image: url('/images/webp/fondoPER4.webp');
             background-size: cover;
             flex-direction: row-reverse;
             justify-content: left;

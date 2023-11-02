@@ -7,7 +7,7 @@
             "Además, me encanta aprender sobre la historia del arte y los grandes artistas del pasado y el presente. Me interesa conocer sus técnicas, su proceso creativo y las influencias que han marcado su trabajo. También disfruto asistir a exposiciones y museos de toda índole para ver el trabajo de otros artistas y aprender de ellos.",
             "En resumen, el arte y el dibujo son una parte importante de mi vida y me permiten explorar mi creatividad, mejorar mis habilidades y disfrutar de la belleza de la vida en todas sus formas."
         ],
-        "imagen": "hobby-dibujo-arte.png"
+        "imagen": "hobby-dibujo-arte.webp"
     },
     {
         "titulo": "Deporte y Actividad Física",
@@ -16,7 +16,7 @@
             "Suelo dedicar varias horas a la semana a hacer deporte. Me gusta planear mi entrenamiento y establecer metas para lograr progresos personales, y me siento motivado cuando veo que estoy mejorando y logrando mis objetivos.",
             "Y lo más importe todo, es que voy disfrutando día a día del proceso y de los beneficios del deporte."
         ],
-        "imagen": "hobby-deporte.png"
+        "imagen": "hobby-deporte.webp"
     },
     {
         "titulo": "Astronomia y Fisica Avanzada",
@@ -26,7 +26,7 @@
             "Hoy en día la astronomía sigue siendo uno de mis mayores intereses y hobbies. Tengo un telescopio que, en mis ratos libres, me permite observar el cielo nocturno y explorar de una manera más directa una pequeñísima parte este universo. Y me encanta pasar tiempo mirando las estrellas y observando los diferentes eventos astronómicos, como eclipse y cometas, siempre que sea posible. Y a menudo estoy buscando nuevas formas de mejorar mi equipo y de aprender más sobre la astronomía.",
             "En resumen, la astronomía y la física teórica avanzada son dos de mis mayores hobbies"
         ],
-        "imagen": "hobby-astronomia2.png"
+        "imagen": "hobby-astronomia2.webp"
     },
     {
         "titulo": "Viajes y Fotografia",
@@ -40,7 +40,7 @@
             "@MATE.EN.LUGARES tiene como objetivo capturar la esencia de cada lugar en una sola foto, transmitiendo su belleza y singularidad. Asi que voy por los caminos, creando imágenes auténticas y naturales, que muestren las maravillas de este mundo a través de mi propia perspectiva, y disfrutando principalmente de los momentos únicos que nos brinda cada lugar en donde decido hacer mi ritual del mate.",
             "Y con este este pequeño granito de arena, solo busco que mi contenido puede inspirar a otros a viajar y experimentar el mundo de la misma manera que lo hago yo, y mi mate."
         ],
-        "imagen": "hobby-viajes-fotografia.png"
+        "imagen": "hobby-viajes-fotografia.webp"
     },
     {
         "titulo": "Escuchar Musica y tocar instrumentos",
@@ -48,7 +48,7 @@
             "Me gusta mucho la música, y disfruto mucho en mi tiempo libre de ella. Además de escuchar música de generos muy variados, toco varios instrumentos como la guitarra, ukelele y el teclado, aunque todavía tengo mucho por aprender. Debo aceptar que no soy muy habilidoso en este rubro y aunque no tengo un talento innato para tocar instrumentos, me esfuerzo cada día para mejorar mis habilidades musicales.",
             "Me gusta explorar diferentes géneros musicales y apreciar la complejidad y belleza de cada uno. Disfruto de la creatividad que me permite la música, y la libertad que se siente y que se expresa a través de ella. A la música la veo como una vía de escape y una forma de conectarme con mi lado creativo."
         ],
-        "imagen": "hobby-musica2.png"
+        "imagen": "hobby-musica2.webp"
     },
     {
         "titulo": "Leer y Escribir",
@@ -58,6 +58,6 @@
             "Me encanta sumergirme en nuevas historias y explorar diferentes mundos a través de la literatura. Cada libro que leo me brinda una nueva perspectiva y me ayuda a entender mejor el mundo que me rodea. Además, la lectura me brinda una vía de escape y una forma de relajarme.",
             "También por momentos me tomo un tiempo para escrivir, textos que van desde pequeñas historias o notas reflexivas, hasta poemas. Y considero ese momento como otra forma de dejar volar imaginación y la creatividad."
         ],
-        "imagen": "hobby-leer2.png"
+        "imagen": "hobby-leer2.webp"
     }
 ]

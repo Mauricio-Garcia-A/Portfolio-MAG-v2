@@ -5,7 +5,7 @@ import { IconLinkedin, IconMail, IconPdf } from './InfoPresentation/IconsTitle'
 import { useState } from 'react'
 
 const SECCION_PRESENTACION = {
-    ImagenPefil: '/Portfolio-MAG-v2/images/imagenPerfil.png',
+    ImagenPefil: '/Portfolio-MAG-v2/images/webp/imagenPerfil.webp',
     NombreYApellido: 'Mauricio Ariel Garcia',
     Estudio: 'Ingeniería en Sistemas de Información',
     Nacinalidad: 'ARGENTINO',

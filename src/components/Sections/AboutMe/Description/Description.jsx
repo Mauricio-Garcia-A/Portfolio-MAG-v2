@@ -11,7 +11,7 @@ export default function Description() {
                 <h1>UNA BREVE DESCRIPCIÓN DE MI</h1>
                 <p>{ItemSituacionActualPersonal.descripcion}</p>
             </div>
-            <img src='/Portfolio-MAG-v2/images/muñeco.png' alt='imagen-muñeco' />
+            <img src='/Portfolio-MAG-v2/images/webp/hobbys/muñeco.webp' alt='imagen-muñeco' />
         </div>
     )
 }

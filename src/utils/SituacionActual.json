@@ -20,7 +20,7 @@
             "textPreboton": "Puede ver más sobre esto en mi portfolio",
             "textBoton": "ver portfolio",
             "url": "",
-            "imagen": "/Portfolio-MAG-v2/images/fotoUX5.png"
+            "imagen": "/Portfolio-MAG-v2/images/webp/fotoUX5.webp"
         },
         {
             "id": "developer",
@@ -34,7 +34,7 @@
             "textPreboton": "Puede ver más sobre esto en mi portfolio",
             "textBoton": "ver portfolio",
             "url": "",
-            "imagen": "/Portfolio-MAG-v2/images/fotoDEV5.png"
+            "imagen": "/Portfolio-MAG-v2/images/webp/fotoDEV5.webp"
         },
         {
             "id": "persona",
@@ -48,7 +48,7 @@
             "textPreboton": "Puedes conoce más sobre mis intereses y hobbies en",
             "textBoton": "Acerca de Mi",
             "url": "",
-            "imagen": "/Portfolio-MAG-v2/images/fotoPER3.png"
+            "imagen": "/Portfolio-MAG-v2/images/webp/fotoPER3.webp"
         }
     ]
 }

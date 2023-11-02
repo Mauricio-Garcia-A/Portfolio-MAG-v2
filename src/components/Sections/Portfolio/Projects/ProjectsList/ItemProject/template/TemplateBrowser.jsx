@@ -14,7 +14,7 @@ export default function TemplateBrowser({
             <header>
                 <div className='header-parte1-Navegador'>
                     <div>
-                        <img src={`/Portfolio-MAG-v2/images/projects/${logo}`} alt='img' style={{ width: '15px' }} />
+                        <img src={`/Portfolio-MAG-v2/images/webp/projects/${logo}`} alt='img' style={{ width: '15px' }} />
                         <span>{tituloHttp}</span>
                     </div>
                     <div>
@@ -36,7 +36,7 @@ export default function TemplateBrowser({
                 </div>
             </header>
             <div className='contenedor-imagen-Navegacion'>
-                <img src={`/Portfolio-MAG-v2/images/projects/${imagenBrowser}`} alt='img-navegador' />
+                <img src={`/Portfolio-MAG-v2/images/webp/projects/${imagenBrowser}`} alt='img-navegador' />
             </div>
 
         </div>

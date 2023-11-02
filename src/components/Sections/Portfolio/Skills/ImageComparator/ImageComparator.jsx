@@ -31,11 +31,11 @@ export default function ImageComparator() {
         <div className='container-ImageComparator'>
             <div className='wrapper-habilidades'>
                 <article className='conteiner-img1'>
-                    <img src='/Portfolio-MAG-v2/images/fotoHabilidades5.png' alt='image-habilidad-dev' />
+                    <img src='/Portfolio-MAG-v2/images/webp/fotoHabilidades5.webp' alt='image-habilidad-dev' />
 
                 </article>
                 <article className='conteiner-img2' id={imageId}>
-                    <img src='/Portfolio-MAG-v2/images/fotoHabilidades6.png' alt='image-habilidad-uix' />
+                    <img src='/Portfolio-MAG-v2/images/webp/fotoHabilidades6.webp' alt='image-habilidad-uix' />
 
                 </article>
                 <input type='range' min='0' max='100' id={sliderId} className='slider-habilidades' />

@@ -17,21 +17,21 @@ export default function CurrentSituation() {
 
             <article>
                 <section>
-                    <img style={{ width: '500px' }} src='/Portfolio-MAG-v2/images/IT.png' />
+                    <img style={{ width: '500px' }} src='/Portfolio-MAG-v2/images/webp/IT.webp' />
                     <div>
                         <p>{descripcionSeccion[0]}</p>
                         <p>{descripcionSeccion[1]}</p>
                     </div>
                 </section>
                 <section>
-                    <img src='/Portfolio-MAG-v2/images/DEVyUX.png' />
+                    <img src='/Portfolio-MAG-v2/images/webp/DEVyUX.webp' />
                     <div>
                         <p>{descripcionSeccion[2]}</p>
                         <p>{descripcionSeccion[3]}</p>
                     </div>
                 </section>
                 <section>
-                    <img src='/Portfolio-MAG-v2/images/agil-medodologia-2.png' />
+                    <img src='/Portfolio-MAG-v2/images/webp/agil-medodologia-2.webp' />
                     <div>
                         <p>{descripcionSeccion[4]}</p>
                         <p>{descripcionSeccion[5]}</p>
