@@ -1,9 +1,12 @@
 import LogoDev from '../../../Portfolio/Skills/logos/LogoDev';
 import LogoUIX from '../../../Portfolio/Skills/logos/LogoUIX';
 import LogoPER from '../logos/LogoPER';
+import { useNavigate } from 'react-router-dom'
 import './RolesSituation.scss'
 
 export default function RolesSituation({ ItemsSituacionActual }) {
+    
+    const navigate = useNavigate()
 
     const itemTitleIcon = (titulo) => {
         switch (titulo) {
@@ -24,6 +27,9 @@ export default function RolesSituation({ ItemsSituacionActual }) {
         }
     }
 
+    const handlerClick = (route) => {
+      navigate(route)
+    }
 
     return (
         <div className='container-RolesSituation'>
@@ -46,7 +52,8 @@ export default function RolesSituation({ ItemsSituacionActual }) {
                             </div>
                             <div className='container-footer-RS'>
                                 <p>{itemSituation.textPreboton}</p>
-                                <button>{itemSituation.textBoton}</button>
+                                <button className='button-RolesSituation' onClick={()=>handlerClick(itemSituation.url)}>{itemSituation.textBoton}</button>
+                                
                             </div>
                         </article>
                         <img src={itemSituation.imagen} />
