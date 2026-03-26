@@ -44,7 +44,7 @@ const formasDeContacto = [
     }
 ]
 
-const URL_PDF = "/Portfolio-MAG-v2/PDFs/CV-Garcia_Mauricio_Ariel.pdf"
+const URL_PDF = "/PDFs/CV-Garcia_Mauricio_Ariel.pdf"
 
 export default function Footer() {
     return (

@@ -11,10 +11,10 @@ export default function SkillsDescription({ Actividades1, Actividades2 }) {
         <div>
             <section className='actividades-Skills'>
                 <article>
-                    <img src='/Portfolio-MAG-v2/images/webp/imagen-habilidades-uix.webp' alt='image-uix-skills' />
+                    <img src='/images/webp/imagen-habilidades-uix.webp' alt='image-uix-skills' />
                 </article>
                 <article>
-                    <img src='/Portfolio-MAG-v2/images/webp/imagen-habilidades-dev.webp' alt='image-dev-skills' />
+                    <img src='/images/webp/imagen-habilidades-dev.webp' alt='image-dev-skills' />
                 </article>
                 <article>
                     <div className='container-text-SD'>

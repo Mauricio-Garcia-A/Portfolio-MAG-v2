@@ -5,7 +5,7 @@ import { IconLinkedin, IconMail, IconPdf } from './InfoPresentation/IconsTitle'
 import { useState } from 'react'
 
 const SECCION_PRESENTACION = {
-    ImagenPefil: '/Portfolio-MAG-v2/images/webp/imagenPerfil.webp',
+    ImagenPefil: '/images/webp/imagenPerfil.webp',
     NombreYApellido: 'Mauricio Ariel Garcia',
     Estudio: 'Ingeniería en Sistemas de Información',
     Nacinalidad: 'ARGENTINO',
@@ -56,7 +56,7 @@ export default function Presentation() {
                     colorTarjeta={colorTarjeta}
                 />
                 <div className='contenedor-botones-Presentacion' >
-                    <a href='/Portfolio-MAG-v2/PDFs/CV-Garcia_Mauricio_Ariel.pdf' target="_blank" rel="noopener noreferrer" download="CV-Garcia_Mauricio.pdf">
+                    <a href='/PDFs/CV-Garcia_Mauricio_Ariel.pdf' target="_blank" rel="noopener noreferrer" download="CV-Garcia_Mauricio.pdf">
                         <div className='botonDescargaCV'>
                             <IconPdf />
                             Descarga CV
