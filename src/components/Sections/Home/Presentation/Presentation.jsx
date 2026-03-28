@@ -56,7 +56,7 @@ export default function Presentation() {
                     colorTarjeta={colorTarjeta}
                 />
                 <div className='contenedor-botones-Presentacion' >
-                    <a href='/PDFs/CV-Garcia_Mauricio_Ariel.pdf' target="_blank" rel="noopener noreferrer" download="CV-Garcia_Mauricio.pdf">
+                    <a href='/PDFs/CV-Garcia_Mauricio.pdf' target="_blank" rel="noopener noreferrer" download="CV-Garcia_Mauricio.pdf">
                         <div className='botonDescargaCV'>
                             <IconPdf />
                             Descarga CV

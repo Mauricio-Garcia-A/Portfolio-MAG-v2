@@ -35,7 +35,7 @@ const formasDeContacto = [
     {
         titulo: 'celular',
         icono: 'whatsapp',
-        descripcion: '+54 9 ( 2314 - 443314 )'
+        descripcion: '+54 9 ( 2314 ) - 443314 '
     },
     {
         titulo: 'linkedin',
@@ -44,7 +44,7 @@ const formasDeContacto = [
     }
 ]
 
-const URL_PDF = "/PDFs/CV-Garcia_Mauricio_Ariel.pdf"
+const URL_PDF = "/PDFs/CV-Garcia_Mauricio.pdf"
 
 export default function Footer() {
     return (
