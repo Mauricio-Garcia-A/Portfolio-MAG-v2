@@ -17,7 +17,7 @@ export default function CurrentSituation() {
 
             <article>
                 <section>
-                    <img style={{ width: '500px' }} src='/images/webp/IT.webp' />
+                    <img src='/images/webp/IT.webp' />
                     <div>
                         <p>{descripcionSeccion[0]}</p>
                         <p>{descripcionSeccion[1]}</p>

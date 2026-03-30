@@ -19,16 +19,22 @@ $color1:rgb(255, 183, 0);
         background: rgb(246, 246, 246);
         background-image: url('/images/webp/fondo-situacion-actual.webp');
         background-size: cover;
-
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
 
         section {
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 50px;
+            max-width: 1500px;
+
             
            img {
-                    width: 40vw !important;
+                    width: 40vw ;
+                    max-width: 700px ;
             }
             p {
                 margin-top: 20px;
@@ -46,25 +52,22 @@ $color1:rgb(255, 183, 0);
             }
             &:nth-child(2) {
                 flex-direction: row-reverse;
-                img {
-                    width: 50vw !important;
-                }
+            
             }
             &:nth-child(3) {
                 flex-direction: row;
-                img {
-                    width: 50vw !important;
-                }
+
             }
         }
 
-        @media (max-width: 750px) { 
+        @media (max-width: 1000px) { 
             section {
                 div {
                     padding: 0;
                 }
                 img {
                     width: 80vw !important;
+                    max-width: 500px ;
                 }
                 &:nth-child(1) {
                     flex-direction: column;
