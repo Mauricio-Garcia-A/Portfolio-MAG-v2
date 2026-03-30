@@ -16,7 +16,20 @@ $color1:rgb(255, 183, 0);
         justify-content: center;
         align-items: center;
     }
-    .text-Projects {
-        padding: 20px 5vw 30px 5vw;
-    } 
+
+    .section-Projects {
+          display: flex;
+          flex-flow: column nowrap;
+          align-items: center;
+          
+        
+          .text-Projects {
+            max-width: 1500px;
+            p {
+              padding: 20px 5vw 30px 5vw;
+            }
+            
+        } 
+    }
+    
 }

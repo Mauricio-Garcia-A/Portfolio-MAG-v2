@@ -21,7 +21,19 @@ $color1:rgb(255, 183, 0);
         justify-content: center;
         align-items: center;
     }
-    .text-Experiences {
-        padding: 20px 5vw 30px 5vw;
-    } 
+    .section-experiences {
+          display: flex;
+          flex-flow: column nowrap;
+          align-items: center;
+          
+        
+          .text-Experiences {
+            max-width: 1500px;
+            p {
+              padding: 20px 5vw 30px 5vw;
+            }
+            
+        } 
+    }
+    
 }

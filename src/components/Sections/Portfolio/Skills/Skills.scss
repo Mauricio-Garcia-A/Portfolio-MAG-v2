@@ -18,12 +18,25 @@ $color1: rgb(255, 183, 0);
         background: rgb(246, 246, 246);
             background-image: url('/images/webp/fondo-situacion-actual.webp');
             background-size: cover;
-        .container-text-presentacion-Skills {
-            padding: 20px 5vw 20px 5vw;
-            p {
-                margin-top: 10px;
-            }  
-        }
+            .section-description-skills {
+              display: flex;
+              flex-flow: column nowrap;
+              justify-content: center;
+              align-items: center;
+
+              padding-bottom: 50px;
+              .container-text-presentacion-Skills {
+                        max-width: 1500px;
+                        div {
+                          padding: 20px 5vw 30px 5vw;
+                        }
+                          p {
+                              margin-top: 10px;
+                          }  
+                      }
+
+            }
+        
         
     }
 
