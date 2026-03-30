@@ -14,10 +14,32 @@ $color1: rgb(255, 183, 0);
             align-items: center;
             
     }
-    .text-Hobbies {
-        padding: 20px 5vw 30px 5vw;
-    } 
-    section {
+
+    .section-hobbies {
+          display: flex;
+          flex-flow: column nowrap;
+          align-items: center;
+
+          .text-hobbies {
+            max-width: 1500px;
+            p {
+              padding: 20px 5vw 30px 5vw;
+            }
+            
+        } 
+    }
+    .section-list-items-hobbies {
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+
+      .list-items-hobbies {
+        max-width: 1500px;
+      }
+
+    }
+    
+    .item-hobbie {
         display: flex;
         justify-content: space-around;
         align-items: start;
@@ -53,8 +75,8 @@ $color1: rgb(255, 183, 0);
         
 
     }
-    @media (max-width: 750px) { 
-        section {
+    @media (max-width:1000px) { 
+        .item-hobbie {
             div {
                 padding: 0;
             }

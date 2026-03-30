@@ -8,7 +8,7 @@ export default function ItemHobbie({
     id='hobbie-00'
 }) {
     return (
-        <section className={`${posicionItem}`}>
+        <section className={`item-hobbie ${posicionItem}`}>
             <div>
                 <h2>{titulo}</h2>
                 <hr />
